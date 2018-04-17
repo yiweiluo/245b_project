@@ -89,3 +89,27 @@ The name after `posthit` must match the name of the `.config` file that you crea
 ```
     python submiterator.py reformat example
 ```
+
+6. (N.B. This will only work on unix.)
+If you want, you can make submiterator a system-wide command, so you can just type (for example):  
+```
+submiterator posthit example
+submiterator getresults example
+submiterator reformat example
+```
+To do this, run the following command:
+```
+chmod u+x submiterator.py
+```
+Then make a directory called "bin" in your home folder and make sym-links to the Submiterator file:  
+```
+cd ~
+mkdir bin
+cd bin
+ln -s [PATH_TO_SUBMITERATOR_DIRECTORY]/submiterator.py submiterator
+```
+Then open up or create the file .bash_profile or .bashrc in your home directory and add the following line:
+```
+PATH=$PATH:~/bin
+```
+Then once you open up a new terminal, you should be able to use the submiterator command as above.
