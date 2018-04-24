@@ -113,3 +113,19 @@ Then open up or create the file .bash_profile or .bashrc in your home directory 
 PATH=$PATH:~/bin
 ```
 Then once you open up a new terminal, you should be able to use the submiterator command as above.
+
+
+## Install R & RStudio
+
+R is a programming language widely used for statistical computing.
+RStudio is a powerful IDE (Integrated Development Environment) we will be working with
+in this course.
+
+1. [Install R](https://cran.cnr.berkeley.edu/)
+2. [Install RStudio](https://www.rstudio.com/products/rstudio/download/)
+3. Install the `tidyverse` package: Lauch RStudio and run in the console: `install.packages("tidyverse")`  
+**(Note that quotes are needed when you install packages)**
+4. You need to load the package before you can use it:
+`library(tidyverse)`  
+**(Note that there are NO quotes when you load packages)**  
+If you see a list of attached packages (including `ggplot2`, `dplyr` etc) then everything is good. (Don't worry about the conflicts printed afterwards.)
