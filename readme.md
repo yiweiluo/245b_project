@@ -129,3 +129,36 @@ in this course.
 `library(tidyverse)`  
 **(Note that there are NO quotes when you load packages)**  
 If you see a list of attached packages (including `ggplot2`, `dplyr` etc) then everything is good. (Don't worry about the conflicts printed afterwards.)
+
+# Using submiterator-batch with Unique Turker
+
+1. Clone the submiterator-batch repo
+```
+git clone https://github.com/mhtess/submiterator-batch
+```
+and follow the instructions in its README file. Crucially, make sure that
+you have submiterator as a system-wide command (i.e., check whether you can use `submiterator posthit [yourexperimentconfigfilename]`) properly).
+
+2. You can use submiterator-batch to post batches of HITs, but if you want to prevent people from taking multiple HITs, you will need to another service called Unique Turker. On its web page https://uniqueturker.myleott.com/, fill in the Unique identifier you want to use (e.g., [name-myexperimentname]), leave `Max # HITs / worker` as 1, and then click on `Get Script`. You will see a block of JavaScript code, where there is a line `var ut_id = "[the-Unique identifier-you-chose]";`
+Copy this Unique identifier for the next step.
+
+3. Open the JavaScript file of your experiment, copy the following code to the beginning of the definition of `init()` (i.e., the line below `function init() {`)
+```
+repeatWorker = false;
+(function(){
+  var ut_id = "[the-Unique identifier-you-chose]";  // remember to replace this!
+  if (UTWorkerLimitReached(ut_id)) {
+    $('.slide').empty();
+    repeatWorker = true;
+    alert("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+  }
+})();
+```
+Remember to change the line `var ut_id = [the-Unique identifier-you-chose]` to what you got in Step 2.
+4. In your HTML file, add the following code in between the `<head>` tags.
+```
+<script src="../shared/js/uniqueturker.js"></script>
+```
+(Make sure that this actually the right path to `uniqueturker.js` as you might have put or called things differently, e.g., you might have a `_shared/` folder instead.)
+5. Now you should be all set, but **make sure to test everything in the sandbox before you post the real HITs**!
+6. As long as you use the same Unique identifier, nobody can do the experiment again. If you are starting a completely different experiment, just go get another Unique identifier (note that you must click on `Get Script` for the id to take effect).
