@@ -1,5 +1,5 @@
 # Linguist 245 resources for projects
-
+  
 ## MTurk experiment template
 
 Here we are using a template for web-based experiments developed and used in Noah Goodman's CoCoLab.
