@@ -3,20 +3,9 @@ function make_slides(f) {
 
   slides.consent = slide({
      name : "consent",
-     start: function() {
-      exp.startT = Date.now();
-      $("#consent_2").hide();
-      exp.consent_position = 0;
-     },
-    button : function() {
-      if(exp.consent_position == 0) {
-         exp.consent_position++;
-         $("#consent_1").hide();
-         $("#consent_2").show();
-      } else {
-        exp.go(); //use exp.go() if and only if there is no "present" data.
-      }
-    }
+     button : function() {
+      exp.go();
+     }
   });
 
   slides.i0 = slide({
@@ -300,7 +289,7 @@ function make_slides(f) {
 function init() {
   exp.trials = [];
   exp.catch_trials = [];
-  exp.condition = _.sample(["CONDITION 1", "condition 2"]); //can randomize between subject conditions here
+  exp.condition = _.sample(["condition 1", "condition 2"]); //can randomize between subject conditions here
   exp.system = {
       Browser : BrowserDetect.browser,
       OS : BrowserDetect.OS,
