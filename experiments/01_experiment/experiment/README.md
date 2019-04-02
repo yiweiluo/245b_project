@@ -4,24 +4,8 @@
 
 Here we are using a template for web-based experiments developed and used in Noah Goodman's CoCoLab.
 
-**Excursion**: Since the original repo (i.e., this repo) from which you forked your own project repo has been updated, we will first "pull" the changes from the upstream repo.
-Below are the steps:
+The original version of this tutorial was written by Ciyang.
 
-1. Open the terminal and cd into your local project repo (e.g., ling245exp under ling245all) and execute  
-```
-git remote -v
-```
-It should show a remote repo called `origin` that corresponds to your project repo on GitHub.
-Now we add reference to the upstream repo  
-```
-git remote add upstream https://github.com/Ciyang/experiment_template.git
-```
-Execute `git remote -v` again to confirm that the change is in effect.
-
-2. Make sure you have comitted all your changes in the repo (use `git status` to check; it is OK to have untracked files). Execute
-```
-git pull upstream master
-```
 If you have not changed any files originally in the repo, then git will automatically merge the branches for you and prompt you to type in a commit message (e.g., type "course material update," save and exit).
 Otherwise, you will probably have to merge the branches manually, resolving any conflicts by yourself. (This is why you were told not to change any existing files! But now you learn how to merge branches by yourself.)
 
