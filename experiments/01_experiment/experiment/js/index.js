@@ -1,13 +1,6 @@
 function make_slides(f) {
   var   slides = {};
 
-  slides.consent = slide({
-     name : "consent",
-     button : function() {
-      exp.go();
-     }
-  });
-
   slides.i0 = slide({
      name : "i0",
      start: function() {
@@ -299,13 +292,13 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "consent", "instructions", "single_trial", "one_slider", "multi_slider", "vertical_sliders", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "single_trial", "one_slider", "multi_slider", "vertical_sliders", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
   exp.slides = make_slides(exp);
 
-  exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
+  //exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
                     //relies on structure and slides being defined
 
   $('.slide').hide(); //hide everything

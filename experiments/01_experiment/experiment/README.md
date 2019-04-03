@@ -13,14 +13,9 @@ The `shared` folder contains common files needed for the template and you genera
 
 1. The first part of the html file is between the head tags `<head> </head>`. Generally, you only need to make a few changes to reflect things specific to the current experiment (the part is close to the closing tag `</head>`).  
 
-2. In between the body tags `<body> </body>` are
- (mostly) the slides used in the whole experiment.
- Each slide is specified within the div tags as follows `<div class="slide" id="[slideID]"></div>`.
-You can see that there are currently slides, whose ids are `i0`, `consent`, `instructions`,
-`single_trial`, `one_slider`, `multi_slider`, `vertical_sliders`, `subj_info`, `thanks`.
-In general, you do not need to edit the `consent`and
- `subj_info` slides,
- and depending on the particular experiment design, you may have various number of slides between `instructions` and `subj_info` corresponding to different blocks in your experiment.
+2. In between the body tags `<body> </body>` are (mostly) the slides used in the whole experiment. Each slide is specified within the div tags as follows `<div class="slide" id="[slideID]"></div>`. You can see that there are currently slides, whose ids are `i0`, `instructions`, `single_trial`, `one_slider`, `multi_slider`, `vertical_sliders`, `subj_info`, `thanks`.
+In general, you do not need to edit the `subj_info`and
+`thanks` slides, and depending on the particular experiment design, you may have various number of slides between `instructions` and `subj_info` corresponding to different blocks in your experiment.
 
 The HTML file only specifies the skeleton of your experiment, the rest of the work is done using JavaScript.
 
@@ -68,7 +63,7 @@ To find out which array is relevant, take a look at `slides.thanks`.
 
 Now you should have a sense of the basic flow of the experiment, but it probably will take a lot of trials and errors for you to get familiar with it.
   
-###Next: 
+### Next: 
 Take a look at `slides.single_trial`, `slides.multi_slider`, `slides.vertical_sliders`, `slides.subj_info` to see how various response types are logged. 
 
 Try to modify the critical slide in various ways so that the responses are in the form of (i) a slider, (ii) a drop-down panel, (iii) a textbox. Pay attention to what kind of verification and error messages are suitable in each cases.
