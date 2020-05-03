@@ -3,3 +3,13 @@
 	width: 400;
 	margin: 10px;
 }
+
+p.prompt_a {
+  font-size: 25px;
+	color: blue;
+}
+
+p.prompt_b {
+  font-size: 25px;
+	color: blue;
+}
