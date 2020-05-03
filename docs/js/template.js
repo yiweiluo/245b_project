@@ -66,11 +66,7 @@ function make_slides(f) {
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
-    present : [
-      {subject: "Scientists", verb: "say", comp: "the benefits of getting vaccinated far outweigh the risks"},
-      {subject: "Researchers", verb: "believe", comp: "the measles epidemic could be contained with vaccines"},
-      {subject: "Scientists", verb: "claim", comp: "there is no link between vaccines and autism"},
-    ],
+    present : exp.all_stims,
 
     // need to shuffle and add cross-trials
 
@@ -83,6 +79,7 @@ function make_slides(f) {
       $(".prompt_a").html(('"' + stim.subject + ' ' + stim.verb + " that " + stim.comp + "." + '"').italics())
 
       $(".prompt_b").html((stim.comp.charAt(0).toUpperCase() + stim.comp.slice(1) + ".").italics())
+      //$(".prompt_b").html((stim.comp + ".").italics())
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
     },
@@ -311,7 +308,8 @@ function make_slides(f) {
 function init() {
   exp.trials = [];
   exp.catch_trials = [];
-  exp.all_stims = _.shuffle(pets); //can randomize between subject conditions here
+  exp.all_stims = _.shuffle(sentences); //can randomize between subject conditions here
+  //exp.comp_clauses = _.shuffle(comp_clauses)
   exp.system = {
       Browser : BrowserDetect.browser,
       OS : BrowserDetect.OS,
@@ -321,7 +319,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
