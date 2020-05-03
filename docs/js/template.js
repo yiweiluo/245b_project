@@ -105,7 +105,8 @@ function make_slides(f) {
     log_responses : function() {
       exp.data_trials.push({
         "trial_type" : "one_slider",
-        "response" : exp.sliderPost
+        "response" : exp.sliderPost,
+        "stim" : this.stim
       });
     }
   });
@@ -168,8 +169,7 @@ function make_slides(f) {
       for (var i=0; i<this.sentence_types.length; i++) {
         var sentence_type = this.sentence_types[i];
         exp.data_trials.push({
-          "trial_type" : "multi_slider",
-          "sentence_type" : sentence_type,
+          "trial_type" : "own_stance",
           "response" : exp.sliderPost[i]
         });
       }
