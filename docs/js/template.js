@@ -15,6 +15,19 @@ function make_slides(f) {
     }
   });
 
+  // slides.comments = slide({
+  //   name : "comments",
+  //   button : function() {
+  //     this.log_responses();
+  //     exp.go(); //use exp.go() if and only if there is no "present" data.
+  //   }
+  //
+  //   log_responses : function() {
+  //     exp.comments = {
+  //       "comments" : $("#comments").val().trim()
+  //     };
+  // });
+
   slides.single_trial = slide({
     name: "single_trial",
     present: exp.all_stims,
@@ -97,19 +110,6 @@ function make_slides(f) {
         "trial_type" : "one_slider",
         "response" : exp.sliderPost
       });
-    }
-  });
-
-  slides.comments = slide({
-    name : "comments",
-
-    button : function() {
-      this.log_responses();
-      exp.go();
-    },
-
-    log_responses : function() {
-      exp.comments = $('#comments').val().trim();
     }
   });
 
@@ -297,6 +297,7 @@ function make_slides(f) {
           "system" : exp.system,
           "condition" : exp.condition,
           "subject_information" : exp.subj_data,
+          "comments": exp.comments,
           "time_in_minutes" : (Date.now() - exp.startT)/60000
       };
       setTimeout(function() {turk.submit(exp.data);}, 1000);
@@ -320,7 +321,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "one_slider", "comments", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
