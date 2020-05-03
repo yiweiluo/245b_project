@@ -59,6 +59,8 @@ function make_slides(f) {
       {subject: "Scientists", verb: "claim", comp: "there is no link between vaccines and autism"},
     ],
 
+    // need to shuffle and add cross-trials
+
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
       $(".err").hide();
@@ -95,6 +97,19 @@ function make_slides(f) {
         "trial_type" : "one_slider",
         "response" : exp.sliderPost
       });
+    }
+  });
+
+  slides.comments = slide({
+    name : "comments",
+
+    button : function() {
+      this.log_responses();
+      exp.go();
+    },
+
+    log_responses : function() {
+      exp.comments = $('#comments').val().trim();
     }
   });
 
@@ -305,7 +320,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "one_slider", "multi_slider", "vertical_sliders", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", "comments", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
