@@ -112,21 +112,23 @@ function make_slides(f) {
 
   slides.multi_slider = slide({
     name : "multi_slider",
-    present : _.shuffle([
-      {"critter":"Wugs", "property":"fur"},
-      {"critter":"Blicks", "property":"fur"}
-    ]),
+    present : [
+      {"item":"Vaccines are a safe and effective way to prevent diseases like measles, tuberculosis, and mumps"},
+      {"item":"Vaccines have been instrumental in advancing public health"},
+      {"item":"Vaccines may cause adverse reactions, excluding autism"},
+      {"item":"Vaccines may cause autism"},
+    ],
     present_handle : function(stim) {
       $(".err").hide();
       this.stim = stim; //FRED: allows you to access stim in helpers
 
-      this.sentence_types = _.shuffle(["generic", "negation", "always", "sometimes", "usually"]);
+      this.sentence_types = _.shuffle(["generic"]);//, "negation", "always", "sometimes", "usually"]);
       var sentences = {
-        "generic": stim.critter + " have " + stim.property + ".",
-        "negation": stim.critter + " do not have " + stim.property + ".",
-        "always": stim.critter + " always have " + stim.property + ".",
-        "sometimes": stim.critter + " sometimes have " + stim.property + ".",
-        "usually": stim.critter + " usually have " + stim.property + "."
+        "generic": stim.item + ".",
+        // "negation": stim.item + ".",
+        // "always": stim.item + ".",
+        // "sometimes": stim.item + ".",
+        // "usually": stim.item + "."
       };
 
       this.n_sliders = this.sentence_types.length;
