@@ -30,7 +30,7 @@ function make_slides(f) {
         $(".err").show();
       } else {
         this.log_responses();
-        _stream.apply(this); 
+        _stream.apply(this);
         // exp.data_trials.push({
         //   "trial_type" : "single_trial",
         //   "response" : response
@@ -54,9 +54,9 @@ function make_slides(f) {
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
     present : [
-      {subject: "dog", object: "ball"},
-      {subject: "cat", object: "windowsill"},
-      {subject: "bird", object: "shiny object"},
+      {subject: "Scientists", verb: "say", comp: "the benefits of getting vaccinated far outweigh the risks"},
+      {subject: "Researchers", verb: "believe", comp: "the measles epidemic could be contained with vaccines"},
+      {subject: "Scientists", verb: "claim", comp: "there is no link between vaccines and autism"},
     ],
 
     //this gets run only at the beginning of the block
@@ -65,8 +65,9 @@ function make_slides(f) {
 
       this.stim = stim; //I like to store this information in the slide so I can record it later.
 
+      $(".prompt_a").html(('"' + stim.subject + ' ' + stim.verb + " that " + stim.comp + "." + '"').italics())
 
-      $(".prompt").html(stim.subject + "s like " + stim.object + "s.");
+      $(".prompt_b").html((stim.comp + ".").italics())
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
     },
@@ -304,7 +305,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "single_trial", "one_slider", "multi_slider", "vertical_sliders", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", "multi_slider", "vertical_sliders", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
