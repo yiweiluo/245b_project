@@ -67,7 +67,7 @@ function make_slides(f) {
 
       $(".prompt_a").html(('"' + stim.subject + ' ' + stim.verb + " that " + stim.comp + "." + '"').italics())
 
-      $(".prompt_b").html((stim.comp + ".").italics())
+      $(".prompt_b").html((stim.comp.charAt(0).toUpperCase() + stim.comp.slice(1) + ".").italics())
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
     },
