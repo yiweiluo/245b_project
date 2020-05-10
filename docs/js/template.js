@@ -2,10 +2,57 @@ function make_slides(f) {
   var   slides = {};
 
   slides.i0 = slide({
-     name : "i0",
-     start: function() {
-      exp.startT = Date.now();
-     }
+       name : "i0",
+       start: function() {
+        exp.startT = Date.now();
+       }
+    });
+
+    slides.bot = slide({
+  name: "bot",
+  start: function () {
+    $('.err_msg').hide();
+    exp.speaker = _.shuffle(["James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Thomas", "Charles"])[0];
+    exp.listener = _.shuffle(["Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara", "Susan", "Jessica", "Sarah", "Margaret"])[0];
+    exp.lives = 0;
+    var story = exp.speaker + ' says to ' + exp.listener + ': "It\'s a beautiful day, isn\'t it?"'
+    var question = 'Who does ' + exp.speaker + ' talk to?';
+    document.getElementById("s").innerHTML = story;
+    document.getElementById("q").innerHTML = question;
+  },
+  button: function () {
+    var textInput = document.getElementById("text_box").value;
+    var listenerLowerCase = exp.listener.toLowerCase();
+    var textInputLowerCase = textInput.toLowerCase();
+
+    exp.data_trials.push({
+      "slide_number_in_experiment": "bot_check",
+      "stim": exp.lives,
+      "response": textInput
+    });
+
+    if ((exp.lives < 3) && (textInputLowerCase === listenerLowerCase)) {
+      exp.go();
+    }
+    else {
+      $('.err_msg').hide();
+      switch (exp.lives) {
+        case 0:
+          $('#err1').show();
+          break;
+        case 1:
+          $('#err2').show();
+          break;
+        case 2:
+          $('#disq').show();
+          $('.button').hide();
+          break;
+        default:
+          break;
+      }
+      exp.lives++;
+    }
+  },
   });
 
   slides.instructions = slide({
@@ -321,7 +368,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
+  exp.structure=["bot", "i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:

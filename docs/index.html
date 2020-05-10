@@ -60,6 +60,26 @@
     <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Erin Bennett at <a href="mailto://erindb@stanford.edu">erindb@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
   </div>
 
+  <div class="slide" id="bot">
+  	<h3>Are you a bot?</h3>
+  	<p id="s"></p>
+  	<p id="q"></p>
+  	<input type="text" id="text_box"/>
+  	<br><br><br>
+  	<div class="err_msg" id="err1">
+  		<p2>Failing this question two more times will disqualify you from this study.</p2>
+  	</div>
+  	<div class="err_msg" id="err2">
+  		<p2>Failing this question one more time will disqualify you from this study.</p2>
+  	</div>
+  	<div class="err_msg" id="disq">
+  		<p2>You failed the question and you are disqualified.</p2>
+  	</div>
+  	<div class="button">
+  		<button onclick="_s.button()">Continue</button>
+  	</div>
+  </div>
+
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
     <p>For each trial, you will see a sentence excerpted from a news source on the topic of vaccines. You will be asked to rate how much you personally believe a statement related to the news excerpt.</p>
