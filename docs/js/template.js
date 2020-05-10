@@ -368,7 +368,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["bot", "i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
