@@ -124,15 +124,22 @@ function make_slides(f) {
       $(".help_2").hide();
       $(".prompt_b").hide();
       $(".button_2").hide();
+      $(".button_1").hide();
+
+      $('.button_1').prop('disabled', true);
+        setTimeout(function(){
+          $('.button_1').prop('disabled', false);
+          // change button color
+          $('.button_1').html("Done reading").show()
+        }, 3500);
 
       this.stim = stim; //I like to store this information in the slide so I can record it later.
 
       $(".prompt_a").html(('"' + stim.subject + ' ' + stim.verb + " that " + stim.comp + "." + '"').italics())
-      $(".button_1").html("Done reading")
+      // $(".button_1").html("Done reading")
       $(".prompt_b").html((stim.comp.charAt(0).toUpperCase() + stim.comp.slice(1) + ".").italics())
       $(".help_1").show();
       $(".prompt_a").show();
-      $(".button_1").show();
       //$(".prompt_b").html((stim.comp + ".").italics())
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
