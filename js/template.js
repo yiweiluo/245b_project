@@ -131,7 +131,7 @@ function make_slides(f) {
           $('.button_1').prop('disabled', false);
           // change button color
           $('.button_1').html("Done reading").show()
-        }, 3000);
+        }, 2000);
 
       this.stim = stim; //I like to store this information in the slide so I can record it later.
 
