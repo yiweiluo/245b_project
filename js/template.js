@@ -393,7 +393,6 @@ function make_slides(f) {
           "comments": exp.comments,
           "time_in_minutes" : (Date.now() - exp.startT)/60000,
           "start_time": Date.now(),
-          "phase_seed": phase_seed,
       };
       setTimeout(function() {turk.submit(exp.data);}, 1000);
     }
