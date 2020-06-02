@@ -55,6 +55,27 @@ function make_slides(f) {
   },
   });
 
+  slides.instructions_eval = slide({
+    name : "instructions_eval",
+    button : function() {
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
+
+  slides.transition_eval = slide({
+    name : "transition_eval",
+    button : function() {
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
+
+  slides.transition_prior = slide({
+    name : "transition_prior",
+    button : function() {
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
+
   slides.instructions = slide({
     name : "instructions",
     button : function() {
@@ -146,8 +167,6 @@ function make_slides(f) {
     },
 
     button_1 : function() {
-      $(".prompt_a").hide();
-      $(".help_1").hide();
       $(".help_2").show();
       $(".prompt_b").show();
       $(".slider_table").show();
@@ -185,10 +204,10 @@ function make_slides(f) {
   slides.multi_slider = slide({
     name : "multi_slider",
     present : [
-      {"item":"Vaccines are a safe and effective way to prevent diseases like measles, tuberculosis, and mumps"},
-      {"item":"Vaccines have been instrumental in advancing public health"},
-      {"item":"Vaccines may cause adverse reactions, excluding autism"},
-      {"item":"Vaccines may cause autism"},
+      {"item":"Vaccines have high preventive health benefits and low risks of side effects"},
+      {"item":"Healthy children should be required to be vaccinated to attend school because of potential health risk to others"}, // 0 to 1
+      {"item":"Parents should be able to decide not to vaccinate their children, even if that may create health risks for others"},
+      {"item":"Medical scientists understand the health risks and benefits of vaccines"}, // 1 to 0
     ],
     present_handle : function(stim) {
       $(".err").hide();
@@ -392,7 +411,8 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'multi_slider', 'thanks'];
+  var structures = [["i0", "instructions_eval", "one_slider", 'transition_prior', 'multi_slider', 'subj_info', 'thanks'],["i0", 'multi_slider',"transition_eval",  "one_slider", 'subj_info', 'thanks']];
+  exp.structure = structures[Math.floor(Math.random() * 2)];
 
   exp.data_trials = [];
   //make corresponding slides:

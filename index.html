@@ -53,11 +53,17 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" id="i0" >
-    <img src="shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
-    <p id="cocolab">Stanford CoCoLab</p>
-    <p id="instruct-text">You will see a series of 30 sentences and be asked to rate how much you agree with some related statements. You will also be asked a series of demographic questions at the end. The HIT should take ~7 minutes. Please pay attention, thanks!</p>
+    <!-- <img src="shared/images/cocologo.png" alt="Stanford University" id="cocologo"></img> -->
+    <p id="cocolab">Welcome!</p>
+    <p id="instruct-text">In this experiment, you will see a series of 30 sentences and be asked to rate how much you agree with some related statements. You will also be asked a series of demographic questions. The HIT should take ~7 minutes. Please pay attention, thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
-    <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Erin Bennett at <a href="mailto://erindb@stanford.edu">erindb@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+    <p class="legal-text"><strong>LEGAL INFORMATION</strong>: You will be paid for your participation at the posted rate. There are no risks or benefits of any kind involved in this study.<br><br>If you have read
+    this form and decided to participate in this experiment, please understand that your participation is voluntary and you have the right to withdraw your consent or discontinue participation without penalty or
+  loss of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy will be maintained in all published and written data resulting from the study.
+  <br><br>You may print this form for your records.<br><br>CONTACT INFORMATION:<br>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should
+  contact the Protocol Director Meghan Sumner at <br>(650)-725-9336<br><br>If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about
+  the research or your rights as a participant, please contact the Stanford  Institutional Review Board (IRB) to speak to someone independent of the research team at (650)-723-2480 or toll free at 1-866-680-2906.
+  You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.<br><br>If you agree to participate, please proceed to the study tasks.
   </div>
 
   <div class="slide" id="bot">
@@ -80,9 +86,21 @@
   	</div>
   </div>
 
-  <div class="slide" id="instructions">
+  <div class="slide" id="transition_prior">
     <h3>Instructions</h3>
-    <p>For each trial, you will see a sentence excerpted from a news source on the topic of vaccines. You will be asked to rate how much you personally believe a statement related to the news excerpt.</p>
+    <p>Now, we will be asking about your own beliefs. For each of the 5 statements on the following screens, please indicate your personal level of agreement.</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+  <div class="slide" id="transition_eval">
+    <h3>Instructions</h3>
+    <p>Now, we will be asking you to read and evaluate a series of 30 sentences. For each trial, you will see a sentence excerpted from a news source on the topic of vaccines. You will then be asked to rate how much you personally believe a statement related to the news excerpt.</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+  <div class="slide" id="instructions_eval">
+    <h3>Evaluation Instructions</h3>
+    <p>We will be asking you to read and evaluate a series of 30 sentences. For each trial, you will see a sentence excerpted from a news source on the topic of vaccines. You will then be asked to rate how much you personally believe a statement related to the news excerpt.</p>
     <button onclick="_s.button()">Continue</button>
   </div>
 
@@ -104,9 +122,10 @@
     <p class="help_2">After reading the excerpt, how much do you agree or disagree with the following statement?</p>
     <p class="prompt_b"></p>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely disagree</td><td class="right">completely agree</td></tr>
+      <tr><td class="left" style="text-align:center">completely disagree</td><td class="right" style="text-align:center">completely agree</td></tr>
       <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr>
     </table>
+    <br><br>
     <button class = "button_2" onclick="_s.button_2()">Continue</button>
     <div class="err">Please adjust the slider before continuing.</div>
   </div>
@@ -119,11 +138,12 @@
   </div>
 
   <div class="slide" id="multi_slider">
-    <p>Now, we would like to ask about your personal beliefs. Please indicate your level of agreement with the following statement.</p>
+    <p>Here, we would like to ask about your personal beliefs. Please indicate your level of agreement with the following statement.</p>
     <!-- <p>How likely do you think it is that someone would say each of the following?</p> -->
     <table id="multi_slider_table" class="slider_table">
-      <tr><td></td><td class="left">completely disagree</td><td class="right">completely agree</td></tr>
+      <tr><td></td><td class="left" style="text-align:center">completely disagree</td><td class="right"  style="text-align:center">completely agree</td></tr>
     </table>
+    <br><br><br><br>
     <button onclick="_s.button()">Continue</button>
     <div class="err">Please adjust all the sliders before continuing.</div>
   </div>

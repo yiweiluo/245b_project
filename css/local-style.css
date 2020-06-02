@@ -13,3 +13,11 @@ p.prompt_b {
   font-size: 25px;
 	color: blue;
 }
+
+.legal-text {
+    font-style: italic;
+    text-align: left;
+    color: #555;
+    font-size: 13px;
+    line-height: 15px;
+}
