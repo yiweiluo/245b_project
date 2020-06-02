@@ -371,7 +371,11 @@ function make_slides(f) {
         education : $("#education").val(),
         comments : $("#comments").val(),
         problems: $("#problems").val(),
-        fairprice: $("#fairprice").val()
+        fairprice: $("#fairprice").val(),
+        start_time: exp.startT,
+        time_taken: (Date.now() - exp.startT)/60000,
+        phaseseed: phase_seed,
+        comments: exp.comments,
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
