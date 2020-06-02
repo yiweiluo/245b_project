@@ -374,7 +374,7 @@ function make_slides(f) {
         fairprice: $("#fairprice").val(),
         start_time: exp.startT,
         time_taken: (Date.now() - exp.startT)/60000,
-        phaseseed: phase_seed,
+        phaseseed: exp.phase_seed,
         comments: exp.comments,
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
@@ -419,6 +419,7 @@ function init() {
   //blocks of the experiment:
   var structures = [["i0", "instructions_eval", "one_slider", 'transition_prior', 'multi_slider', 'subj_info', 'thanks'],["i0", 'multi_slider',"transition_eval",  "one_slider", 'subj_info', 'thanks']];
   var phase_seed = Math.floor(Math.random() * 2)
+  exp.phase_seed = phase_seed
   exp.structure = structures[phase_seed];
 
   exp.data_trials = [];
