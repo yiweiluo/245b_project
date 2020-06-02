@@ -387,7 +387,9 @@ function make_slides(f) {
           "condition" : exp.condition,
           "subject_information" : exp.subj_data,
           "comments": exp.comments,
-          "time_in_minutes" : (Date.now() - exp.startT)/60000
+          "time_in_minutes" : (Date.now() - exp.startT)/60000,
+          "start_time": Date.now(),
+          "phase_seed": phase_seed,
       };
       setTimeout(function() {turk.submit(exp.data);}, 1000);
     }
@@ -412,7 +414,8 @@ function init() {
     };
   //blocks of the experiment:
   var structures = [["i0", "instructions_eval", "one_slider", 'transition_prior', 'multi_slider', 'subj_info', 'thanks'],["i0", 'multi_slider',"transition_eval",  "one_slider", 'subj_info', 'thanks']];
-  exp.structure = structures[Math.floor(Math.random() * 2)];
+  var phase_seed = Math.floor(Math.random() * 2)
+  exp.structure = structures[phase_seed];
 
   exp.data_trials = [];
   //make corresponding slides:
