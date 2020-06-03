@@ -7,7 +7,6 @@ setwd(this.dir)
 #Load necessary packages
 library(tidyverse)
 library(lme4)
-library("rjson")
 
 # Load datasets. R will automatically read the contents of these files into tibbles (which are tidyverse versions of data.frames).
 subjinfo = read_csv("../data/vaccine_preds_pilot_1_LIVE-subject-info.csv")
@@ -114,12 +113,29 @@ get_stim_cc <- function(s) {
   return(cc)
 }
 
+get_stim_verb_cat <- function(verb) {
+  if (verb %in% c("argue","claim","insist")) {
+    cat <- "neg"
+  }
+  else if (verb %in% c("find","point out","show","suspect")) {
+    cat <- "pos"
+  }
+  else {
+    cat <- "neut"
+  }
+  return(cat)
+}
+
 trialinfo$subj <- modify(trialinfo$stim,get_stim_subj)
 trialinfo$verb <- modify(trialinfo$stim,get_stim_verb)
+trialinfo$verb_cat <- modify(trialinfo$verb,get_stim_verb_cat)
 trialinfo$cc <- modify(trialinfo$stim,get_stim_cc)
 
 dplyr::count(trialinfo,verb) # should all be 72 (24 subjs*3)
 dplyr::count(trialinfo,subj) # may be different since randomly chosen per stim
+
+# Remove workerid
+subjinfo <- select (subjinfo,-c(workerid))
 
 # Save reformatted data
 write_csv(subjinfo, "../data/reformatted_subjinfo.csv", na = "NA", append = FALSE, col_names = TRUE,
