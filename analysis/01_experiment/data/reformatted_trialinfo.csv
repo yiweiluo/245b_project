@@ -1,0 +1,721 @@
+workerid,stim,response,trial_type,subj,verb,cc
+0,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.92,one_slider,Scientists,insist,the benefits of getting vaccinated far outweigh the risks
+0,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",0.87,one_slider,Scientists,suspect,children should be required to get vaccinated
+0,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines have saved countless lives'}",0.95,one_slider,Researchers,say,vaccines have saved countless lives
+0,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",1,one_slider,Scientists,think,without the vaccine
+0,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the study linking vaccines to autism has been debunked'}",0.8,one_slider,Scientists,insist,the study linking vaccines to autism has been debunked
+0,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'many children have shown adverse reactions to vaccines'}",0.75,one_slider,Scientists,claim,many children have shown adverse reactions to vaccines
+0,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'many diseases can be contained with vaccines'}",0.96,one_slider,Doctors,claim,many diseases can be contained with vaccines
+0,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.89,one_slider,Scientists,suspect,we need to be more aware of the risks posed by vaccines
+0,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccinating children is a crucial measure for public health'}",0.92,one_slider,Doctors,show,vaccinating children is a crucial measure for public health
+0,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.84,one_slider,Researchers,argue,vaccines are not as safe as many people imagine
+0,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines do not cause autism'}",0.93,one_slider,Researchers,argue,vaccines do not cause autism
+0,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.89,one_slider,Doctors,find,thimerosol
+0,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.97,one_slider,Scientists,suspect,vaccines are effective at preventing diseases like measles
+0,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccines do not guarantee immunity'}",0.93,one_slider,Scientists,show,vaccines do not guarantee immunity
+0,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.89,one_slider,Scientists,show,vaccines were responsible for some cases of autism in children
+0,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'the absolute safety of vaccines is a misconception'}",0.95,one_slider,Scientists,claim,the absolute safety of vaccines is a misconception
+0,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'the link between vaccines and autism is unfounded'}",0.93,one_slider,Doctors,insist,the link between vaccines and autism is unfounded
+0,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.88,one_slider,Doctors,think,the campaign to get children vaccinated is driven in large part by drug companies
+0,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",0.94,one_slider,Doctors,point out,the vaccine-autism link is entirely a myth
+0,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",1,one_slider,Doctors,point out,we have basically eradicated measles
+0,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.97,one_slider,Researchers,think,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+0,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are a safe and effective way to save lives'}",0.96,one_slider,Doctors,find,vaccines are a safe and effective way to save lives
+0,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'there is no link between vaccines and autism'}",0.94,one_slider,Doctors,say,there is no link between vaccines and autism
+0,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.94,one_slider,Doctors,find,concerns over vaccine injuries are generally unfounded
+0,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.84,one_slider,Researchers,point out,parents should have a choice in whether they vaccinate their children
+0,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines pose non-trivial risks'}",0.8,one_slider,Researchers,believe,vaccines pose non-trivial risks
+0,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines are not as effective as people think'}",0.89,one_slider,Scientists,believe,vaccines are not as effective as people think
+0,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.85,one_slider,Doctors,argue,people have sometimes still gotten sick
+0,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'getting vaccinated can pose serious risks'}",0.57,one_slider,Scientists,believe,getting vaccinated can pose serious risks
+0,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.36,one_slider,Researchers,say,the mercury contained in vaccines is linked to autism risk
+1,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.73,one_slider,Doctors,believe,concerns over vaccine injuries are generally unfounded
+1,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0,one_slider,Scientists,claim,vaccines are not as safe as many people imagine
+1,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccinating children is a crucial measure for public health'}",0.84,one_slider,Doctors,say,vaccinating children is a crucial measure for public health
+1,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.49,one_slider,Researchers,find,thimerosol
+1,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines were responsible for some cases of autism in children'}",0,one_slider,Researchers,find,vaccines were responsible for some cases of autism in children
+1,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'the vaccine-autism link is entirely a myth'}",0.96,one_slider,Scientists,believe,the vaccine-autism link is entirely a myth
+1,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",0.99,one_slider,Scientists,suspect,children should be required to get vaccinated
+1,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.02,one_slider,Doctors,think,the campaign to get children vaccinated is driven in large part by drug companies
+1,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'many children have shown adverse reactions to vaccines'}",0.03,one_slider,Researchers,show,many children have shown adverse reactions to vaccines
+1,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.02,one_slider,Doctors,suspect,parents should have a choice in whether they vaccinate their children
+1,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.02,one_slider,Doctors,argue,the mercury contained in vaccines is linked to autism risk
+1,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines pose non-trivial risks'}",0.06,one_slider,Scientists,say,vaccines pose non-trivial risks
+1,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines do not guarantee immunity'}",0.52,one_slider,Scientists,claim,vaccines do not guarantee immunity
+1,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccines are a safe and effective way to save lives'}",0.99,one_slider,Scientists,think,vaccines are a safe and effective way to save lives
+1,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'there is no link between vaccines and autism'}",0.98,one_slider,Scientists,show,there is no link between vaccines and autism
+1,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.46,one_slider,Doctors,insist,people have sometimes still gotten sick
+1,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not cause autism'}",0.98,one_slider,Doctors,point out,vaccines do not cause autism
+1,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'many diseases can be contained with vaccines'}",0.97,one_slider,Scientists,think,many diseases can be contained with vaccines
+1,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccines have saved countless lives'}",0.98,one_slider,Researchers,claim,vaccines have saved countless lives
+1,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.97,one_slider,Researchers,argue,vaccines are effective at preventing diseases like measles
+1,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.41,one_slider,Scientists,suspect,we need to be more aware of the risks posed by vaccines
+1,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.02,one_slider,Researchers,insist,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+1,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines are not as effective as people think'}",0.02,one_slider,Doctors,point out,vaccines are not as effective as people think
+1,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'the study linking vaccines to autism has been debunked'}",0.98,one_slider,Researchers,argue,the study linking vaccines to autism has been debunked
+1,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.99,one_slider,Doctors,show,the benefits of getting vaccinated far outweigh the risks
+1,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'getting vaccinated can pose serious risks'}",0.01,one_slider,Doctors,find,getting vaccinated can pose serious risks
+1,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the absolute safety of vaccines is a misconception'}",0.03,one_slider,Doctors,believe,the absolute safety of vaccines is a misconception
+1,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.98,one_slider,Doctors,insist,without the vaccine
+1,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.78,one_slider,Scientists,point out,we have basically eradicated measles
+1,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'the link between vaccines and autism is unfounded'}",1,one_slider,Researchers,say,the link between vaccines and autism is unfounded
+2,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0,one_slider,Doctors,insist,the mercury contained in vaccines is linked to autism risk
+2,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.36,one_slider,Researchers,find,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+2,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines pose non-trivial risks'}",0.93,one_slider,Doctors,think,vaccines pose non-trivial risks
+2,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.13,one_slider,Researchers,argue,people have sometimes still gotten sick
+2,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'children should be required to get vaccinated'}",1,one_slider,Researchers,show,children should be required to get vaccinated
+2,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.24,one_slider,Researchers,argue,we need to be more aware of the risks posed by vaccines
+2,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.92,one_slider,Researchers,find,we have basically eradicated measles
+2,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccines are effective at preventing diseases like measles'}",1,one_slider,Scientists,show,vaccines are effective at preventing diseases like measles
+2,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'getting vaccinated can pose serious risks'}",0.16,one_slider,Doctors,find,getting vaccinated can pose serious risks
+2,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines are not as effective as people think'}",0.23,one_slider,Researchers,believe,vaccines are not as effective as people think
+2,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",1,one_slider,Scientists,believe,the benefits of getting vaccinated far outweigh the risks
+2,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",1,one_slider,Doctors,suspect,without the vaccine
+2,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.17,one_slider,Scientists,argue,many children have shown adverse reactions to vaccines
+2,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0.17,one_slider,Doctors,claim,vaccines are not as safe as many people imagine
+2,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccinating children is a crucial measure for public health'}",1,one_slider,Doctors,suspect,vaccinating children is a crucial measure for public health
+2,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'the study linking vaccines to autism has been debunked'}",1,one_slider,Scientists,say,the study linking vaccines to autism has been debunked
+2,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'many diseases can be contained with vaccines'}",0.93,one_slider,Researchers,point out,many diseases can be contained with vaccines
+2,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0,one_slider,Researchers,believe,vaccines were responsible for some cases of autism in children
+2,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",1,one_slider,Researchers,say,vaccines are a safe and effective way to save lives
+2,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.37,one_slider,Doctors,say,the campaign to get children vaccinated is driven in large part by drug companies
+2,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the absolute safety of vaccines is a misconception'}",0.72,one_slider,Doctors,think,the absolute safety of vaccines is a misconception
+2,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.75,one_slider,Doctors,show,thimerosol
+2,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not cause autism'}",1,one_slider,Doctors,point out,vaccines do not cause autism
+2,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.38,one_slider,Scientists,claim,parents should have a choice in whether they vaccinate their children
+2,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the link between vaccines and autism is unfounded'}",1,one_slider,Scientists,think,the link between vaccines and autism is unfounded
+2,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.59,one_slider,Researchers,insist,concerns over vaccine injuries are generally unfounded
+2,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccines have saved countless lives'}",1,one_slider,Doctors,insist,vaccines have saved countless lives
+2,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'there is no link between vaccines and autism'}",1,one_slider,Scientists,claim,there is no link between vaccines and autism
+2,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",1,one_slider,Researchers,point out,the vaccine-autism link is entirely a myth
+2,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines do not guarantee immunity'}",0.49,one_slider,Doctors,suspect,vaccines do not guarantee immunity
+3,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.66,one_slider,Researchers,believe,people have sometimes still gotten sick
+3,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.13,one_slider,Scientists,point out,the mercury contained in vaccines is linked to autism risk
+3,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.72,one_slider,Scientists,believe,we have basically eradicated measles
+3,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'vaccines are not as safe as many people imagine'}",0.19,one_slider,Researchers,suspect,vaccines are not as safe as many people imagine
+3,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.52,one_slider,Scientists,point out,thimerosol
+3,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.85,one_slider,Scientists,suspect,vaccines are effective at preventing diseases like measles
+3,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the link between vaccines and autism is unfounded'}",0.81,one_slider,Scientists,insist,the link between vaccines and autism is unfounded
+3,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.15,one_slider,Scientists,insist,vaccines were responsible for some cases of autism in children
+3,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.64,one_slider,Researchers,think,the campaign to get children vaccinated is driven in large part by drug companies
+3,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'there is no link between vaccines and autism'}",0.85,one_slider,Scientists,claim,there is no link between vaccines and autism
+3,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccinating children is a crucial measure for public health'}",0.82,one_slider,Researchers,say,vaccinating children is a crucial measure for public health
+3,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.75,one_slider,Scientists,argue,without the vaccine
+3,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'the absolute safety of vaccines is a misconception'}",0.65,one_slider,Scientists,argue,the absolute safety of vaccines is a misconception
+3,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines are a safe and effective way to save lives'}",0.89,one_slider,Researchers,show,vaccines are a safe and effective way to save lives
+3,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines do not cause autism'}",0.8,one_slider,Researchers,insist,vaccines do not cause autism
+3,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'the vaccine-autism link is entirely a myth'}",0.76,one_slider,Researchers,find,the vaccine-autism link is entirely a myth
+3,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.52,one_slider,Researchers,say,parents should have a choice in whether they vaccinate their children
+3,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'many children have shown adverse reactions to vaccines'}",0.45,one_slider,Scientists,believe,many children have shown adverse reactions to vaccines
+3,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines have saved countless lives'}",0.85,one_slider,Researchers,show,vaccines have saved countless lives
+3,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.24,one_slider,Doctors,claim,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+3,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'many diseases can be contained with vaccines'}",0.79,one_slider,Researchers,point out,many diseases can be contained with vaccines
+3,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.87,one_slider,Doctors,claim,the benefits of getting vaccinated far outweigh the risks
+3,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.53,one_slider,Doctors,think,we need to be more aware of the risks posed by vaccines
+3,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines do not guarantee immunity'}",0.61,one_slider,Researchers,say,vaccines do not guarantee immunity
+3,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines pose non-trivial risks'}",0.72,one_slider,Researchers,find,vaccines pose non-trivial risks
+3,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines are not as effective as people think'}",0.16,one_slider,Researchers,think,vaccines are not as effective as people think
+3,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'the study linking vaccines to autism has been debunked'}",0.82,one_slider,Scientists,argue,the study linking vaccines to autism has been debunked
+3,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",0.88,one_slider,Doctors,suspect,children should be required to get vaccinated
+3,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'getting vaccinated can pose serious risks'}",0.2,one_slider,Doctors,find,getting vaccinated can pose serious risks
+3,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.82,one_slider,Doctors,show,concerns over vaccine injuries are generally unfounded
+5,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.61,one_slider,Researchers,point out,vaccines were responsible for some cases of autism in children
+5,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.73,one_slider,Scientists,claim,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+5,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.66,one_slider,Scientists,say,vaccines are a safe and effective way to save lives
+5,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not cause autism'}",0.82,one_slider,Doctors,point out,vaccines do not cause autism
+5,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.91,one_slider,Doctors,believe,people have sometimes still gotten sick
+5,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.23,one_slider,Doctors,point out,concerns over vaccine injuries are generally unfounded
+5,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.87,one_slider,Scientists,argue,vaccines are not as safe as many people imagine
+5,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.1,one_slider,Doctors,claim,the mercury contained in vaccines is linked to autism risk
+5,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines do not guarantee immunity'}",0.67,one_slider,Scientists,find,vaccines do not guarantee immunity
+5,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.93,one_slider,Doctors,argue,vaccines are effective at preventing diseases like measles
+5,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.84,one_slider,Scientists,insist,thimerosol
+5,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.79,one_slider,Doctors,say,the campaign to get children vaccinated is driven in large part by drug companies
+5,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the absolute safety of vaccines is a misconception'}",0.88,one_slider,Doctors,say,the absolute safety of vaccines is a misconception
+5,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'children should be required to get vaccinated'}",0.68,one_slider,Researchers,believe,children should be required to get vaccinated
+5,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.91,one_slider,Doctors,find,we have basically eradicated measles
+5,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'the link between vaccines and autism is unfounded'}",0.64,one_slider,Scientists,show,the link between vaccines and autism is unfounded
+5,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'many children have shown adverse reactions to vaccines'}",0.92,one_slider,Scientists,suspect,many children have shown adverse reactions to vaccines
+5,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.64,one_slider,Researchers,suspect,we need to be more aware of the risks posed by vaccines
+5,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'the study linking vaccines to autism has been debunked'}",0.8,one_slider,Researchers,find,the study linking vaccines to autism has been debunked
+5,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.86,one_slider,Doctors,argue,without the vaccine
+5,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'there is no link between vaccines and autism'}",0.71,one_slider,Scientists,insist,there is no link between vaccines and autism
+5,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.65,one_slider,Doctors,show,the benefits of getting vaccinated far outweigh the risks
+5,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'getting vaccinated can pose serious risks'}",0.85,one_slider,Doctors,think,getting vaccinated can pose serious risks
+5,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines pose non-trivial risks'}",0.92,one_slider,Doctors,claim,vaccines pose non-trivial risks
+5,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the vaccine-autism link is entirely a myth'}",0.76,one_slider,Doctors,think,the vaccine-autism link is entirely a myth
+5,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines are not as effective as people think'}",0.88,one_slider,Researchers,insist,vaccines are not as effective as people think
+5,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'many diseases can be contained with vaccines'}",0.94,one_slider,Scientists,show,many diseases can be contained with vaccines
+5,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccinating children is a crucial measure for public health'}",0.9,one_slider,Doctors,suspect,vaccinating children is a crucial measure for public health
+5,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.74,one_slider,Researchers,believe,parents should have a choice in whether they vaccinate their children
+5,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines have saved countless lives'}",0.78,one_slider,Doctors,think,vaccines have saved countless lives
+6,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.1,one_slider,Doctors,say,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+6,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are effective at preventing diseases like measles'}",1,one_slider,Doctors,claim,vaccines are effective at preventing diseases like measles
+6,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.02,one_slider,Doctors,show,parents should have a choice in whether they vaccinate their children
+6,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'the absolute safety of vaccines is a misconception'}",0.41,one_slider,Doctors,show,the absolute safety of vaccines is a misconception
+6,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccines do not guarantee immunity'}",0.13,one_slider,Scientists,think,vaccines do not guarantee immunity
+6,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.04,one_slider,Doctors,find,vaccines were responsible for some cases of autism in children
+6,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.04,one_slider,Doctors,believe,the campaign to get children vaccinated is driven in large part by drug companies
+6,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines pose non-trivial risks'}",0.03,one_slider,Scientists,say,vaccines pose non-trivial risks
+6,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are a safe and effective way to save lives'}",0.96,one_slider,Researchers,argue,vaccines are a safe and effective way to save lives
+6,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines are not as effective as people think'}",0.02,one_slider,Doctors,suspect,vaccines are not as effective as people think
+6,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'there is no link between vaccines and autism'}",1,one_slider,Researchers,find,there is no link between vaccines and autism
+6,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccines have saved countless lives'}",0.97,one_slider,Doctors,insist,vaccines have saved countless lives
+6,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.98,one_slider,Researchers,show,the benefits of getting vaccinated far outweigh the risks
+6,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",1,one_slider,Scientists,say,we have basically eradicated measles
+6,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not cause autism'}",1,one_slider,Doctors,point out,vaccines do not cause autism
+6,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccinating children is a crucial measure for public health'}",1,one_slider,Doctors,believe,vaccinating children is a crucial measure for public health
+6,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.18,one_slider,Scientists,think,we need to be more aware of the risks posed by vaccines
+6,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'children should be required to get vaccinated'}",1,one_slider,Scientists,believe,children should be required to get vaccinated
+6,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.71,one_slider,Researchers,claim,without the vaccine
+6,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.47,one_slider,Scientists,argue,people have sometimes still gotten sick
+6,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.17,one_slider,Doctors,argue,many children have shown adverse reactions to vaccines
+6,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.95,one_slider,Researchers,suspect,concerns over vaccine injuries are generally unfounded
+6,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the link between vaccines and autism is unfounded'}",0.97,one_slider,Researchers,suspect,the link between vaccines and autism is unfounded
+6,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.14,one_slider,Doctors,point out,the mercury contained in vaccines is linked to autism risk
+6,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are not as safe as many people imagine'}",0.03,one_slider,Doctors,find,vaccines are not as safe as many people imagine
+6,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the vaccine-autism link is entirely a myth'}",1,one_slider,Researchers,claim,the vaccine-autism link is entirely a myth
+6,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.54,one_slider,Scientists,point out,thimerosol
+6,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'the study linking vaccines to autism has been debunked'}",1,one_slider,Researchers,think,the study linking vaccines to autism has been debunked
+6,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'getting vaccinated can pose serious risks'}",0.17,one_slider,Doctors,insist,getting vaccinated can pose serious risks
+6,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'many diseases can be contained with vaccines'}",0.94,one_slider,Scientists,insist,many diseases can be contained with vaccines
+7,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.01,one_slider,Doctors,find,parents should have a choice in whether they vaccinate their children
+7,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'children should be required to get vaccinated'}",0.96,one_slider,Researchers,say,children should be required to get vaccinated
+7,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the absolute safety of vaccines is a misconception'}",0.5,one_slider,Doctors,suspect,the absolute safety of vaccines is a misconception
+7,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines do not guarantee immunity'}",0.62,one_slider,Scientists,find,vaccines do not guarantee immunity
+7,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.88,one_slider,Researchers,think,without the vaccine
+7,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'many diseases can be contained with vaccines'}",1,one_slider,Scientists,point out,many diseases can be contained with vaccines
+7,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.77,one_slider,Scientists,suspect,concerns over vaccine injuries are generally unfounded
+7,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.29,one_slider,Researchers,claim,the mercury contained in vaccines is linked to autism risk
+7,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccines are not as safe as many people imagine'}",0.03,one_slider,Scientists,think,vaccines are not as safe as many people imagine
+7,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.36,one_slider,Doctors,say,vaccines were responsible for some cases of autism in children
+7,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.06,one_slider,Researchers,say,we need to be more aware of the risks posed by vaccines
+7,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines have saved countless lives'}",1,one_slider,Researchers,argue,vaccines have saved countless lives
+7,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.5,one_slider,Scientists,argue,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+7,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",1,one_slider,Doctors,point out,we have basically eradicated measles
+7,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines are not as effective as people think'}",0.12,one_slider,Scientists,insist,vaccines are not as effective as people think
+7,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0,one_slider,Doctors,point out,the campaign to get children vaccinated is driven in large part by drug companies
+7,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines pose non-trivial risks'}",0.06,one_slider,Scientists,argue,vaccines pose non-trivial risks
+7,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'the link between vaccines and autism is unfounded'}",0.9,one_slider,Doctors,claim,the link between vaccines and autism is unfounded
+7,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.48,one_slider,Doctors,insist,thimerosol
+7,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the study linking vaccines to autism has been debunked'}",0.77,one_slider,Researchers,insist,the study linking vaccines to autism has been debunked
+7,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the vaccine-autism link is entirely a myth'}",0.9,one_slider,Scientists,think,the vaccine-autism link is entirely a myth
+7,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'there is no link between vaccines and autism'}",0.91,one_slider,Researchers,find,there is no link between vaccines and autism
+7,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",1,one_slider,Doctors,suspect,the benefits of getting vaccinated far outweigh the risks
+7,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'getting vaccinated can pose serious risks'}",0.08,one_slider,Doctors,believe,getting vaccinated can pose serious risks
+7,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines do not cause autism'}",1,one_slider,Researchers,show,vaccines do not cause autism
+7,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'many children have shown adverse reactions to vaccines'}",0.49,one_slider,Researchers,show,many children have shown adverse reactions to vaccines
+7,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccinating children is a crucial measure for public health'}",0.98,one_slider,Scientists,believe,vaccinating children is a crucial measure for public health
+7,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.5,one_slider,Researchers,show,people have sometimes still gotten sick
+7,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines are effective at preventing diseases like measles'}",1,one_slider,Scientists,believe,vaccines are effective at preventing diseases like measles
+7,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccines are a safe and effective way to save lives'}",1,one_slider,Researchers,claim,vaccines are a safe and effective way to save lives
+8,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the study linking vaccines to autism has been debunked'}",0.47,one_slider,Researchers,point out,the study linking vaccines to autism has been debunked
+8,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'many diseases can be contained with vaccines'}",0.8,one_slider,Doctors,believe,many diseases can be contained with vaccines
+8,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.48,one_slider,Scientists,suspect,the mercury contained in vaccines is linked to autism risk
+8,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.26,one_slider,Researchers,say,parents should have a choice in whether they vaccinate their children
+8,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.72,one_slider,Doctors,say,vaccines are effective at preventing diseases like measles
+8,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'there is no link between vaccines and autism'}",0.26,one_slider,Doctors,suspect,there is no link between vaccines and autism
+8,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'getting vaccinated can pose serious risks'}",0.13,one_slider,Doctors,argue,getting vaccinated can pose serious risks
+8,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'the link between vaccines and autism is unfounded'}",0.48,one_slider,Scientists,say,the link between vaccines and autism is unfounded
+8,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.61,one_slider,Scientists,show,we have basically eradicated measles
+8,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.87,one_slider,Scientists,think,without the vaccine
+8,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccinating children is a crucial measure for public health'}",0.9,one_slider,Researchers,insist,vaccinating children is a crucial measure for public health
+8,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.69,one_slider,Researchers,find,the campaign to get children vaccinated is driven in large part by drug companies
+8,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccines pose non-trivial risks'}",0.48,one_slider,Doctors,show,vaccines pose non-trivial risks
+8,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the vaccine-autism link is entirely a myth'}",0.49,one_slider,Doctors,think,the vaccine-autism link is entirely a myth
+8,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'children should be required to get vaccinated'}",0.85,one_slider,Researchers,claim,children should be required to get vaccinated
+8,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.55,one_slider,Scientists,argue,we need to be more aware of the risks posed by vaccines
+8,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'the absolute safety of vaccines is a misconception'}",0.36,one_slider,Researchers,think,the absolute safety of vaccines is a misconception
+8,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.36,one_slider,Researchers,argue,vaccines are not as safe as many people imagine
+8,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.27,one_slider,Doctors,insist,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+8,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.46,one_slider,Researchers,point out,vaccines were responsible for some cases of autism in children
+8,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.38,one_slider,Researchers,suspect,concerns over vaccine injuries are generally unfounded
+8,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are a safe and effective way to save lives'}",0.8,one_slider,Doctors,claim,vaccines are a safe and effective way to save lives
+8,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines do not guarantee immunity'}",0.33,one_slider,Researchers,believe,vaccines do not guarantee immunity
+8,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not cause autism'}",0.6,one_slider,Doctors,point out,vaccines do not cause autism
+8,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccines are not as effective as people think'}",0.26,one_slider,Researchers,claim,vaccines are not as effective as people think
+8,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.65,one_slider,Researchers,believe,people have sometimes still gotten sick
+8,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'many children have shown adverse reactions to vaccines'}",0.28,one_slider,Scientists,find,many children have shown adverse reactions to vaccines
+8,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.32,one_slider,Doctors,find,thimerosol
+8,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines have saved countless lives'}",0.97,one_slider,Researchers,show,vaccines have saved countless lives
+8,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.99,one_slider,Doctors,insist,the benefits of getting vaccinated far outweigh the risks
+9,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines do not guarantee immunity'}",0.73,one_slider,Scientists,argue,vaccines do not guarantee immunity
+9,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'there is no link between vaccines and autism'}",0.85,one_slider,Doctors,claim,there is no link between vaccines and autism
+9,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.25,one_slider,Scientists,find,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+9,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.7,one_slider,Doctors,claim,thimerosol
+9,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.88,one_slider,Scientists,believe,we need to be more aware of the risks posed by vaccines
+9,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines do not cause autism'}",0.74,one_slider,Scientists,say,vaccines do not cause autism
+9,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccines pose non-trivial risks'}",0.75,one_slider,Doctors,show,vaccines pose non-trivial risks
+9,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.95,one_slider,Researchers,find,parents should have a choice in whether they vaccinate their children
+9,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'getting vaccinated can pose serious risks'}",0.71,one_slider,Doctors,point out,getting vaccinated can pose serious risks
+9,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are not as effective as people think'}",0.81,one_slider,Researchers,say,vaccines are not as effective as people think
+9,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.85,one_slider,Researchers,think,concerns over vaccine injuries are generally unfounded
+9,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the vaccine-autism link is entirely a myth'}",0.86,one_slider,Researchers,show,the vaccine-autism link is entirely a myth
+9,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccines are not as safe as many people imagine'}",0.66,one_slider,Doctors,insist,vaccines are not as safe as many people imagine
+9,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.49,one_slider,Doctors,believe,the campaign to get children vaccinated is driven in large part by drug companies
+9,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the study linking vaccines to autism has been debunked'}",0.76,one_slider,Researchers,insist,the study linking vaccines to autism has been debunked
+9,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.43,one_slider,Doctors,suspect,vaccines were responsible for some cases of autism in children
+9,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the absolute safety of vaccines is a misconception'}",0.7,one_slider,Researchers,point out,the absolute safety of vaccines is a misconception
+9,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.83,one_slider,Scientists,show,people have sometimes still gotten sick
+9,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the link between vaccines and autism is unfounded'}",0.83,one_slider,Doctors,think,the link between vaccines and autism is unfounded
+9,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.88,one_slider,Doctors,point out,we have basically eradicated measles
+9,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines have saved countless lives'}",0.95,one_slider,Scientists,believe,vaccines have saved countless lives
+9,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccinating children is a crucial measure for public health'}",0.98,one_slider,Researchers,argue,vaccinating children is a crucial measure for public health
+9,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.93,one_slider,Scientists,find,the benefits of getting vaccinated far outweigh the risks
+9,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.54,one_slider,Doctors,suspect,the mercury contained in vaccines is linked to autism risk
+9,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'children should be required to get vaccinated'}",0.79,one_slider,Scientists,think,children should be required to get vaccinated
+9,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'many children have shown adverse reactions to vaccines'}",0.66,one_slider,Researchers,say,many children have shown adverse reactions to vaccines
+9,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'many diseases can be contained with vaccines'}",0.7,one_slider,Doctors,claim,many diseases can be contained with vaccines
+9,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.96,one_slider,Researchers,suspect,without the vaccine
+9,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.96,one_slider,Researchers,argue,vaccines are effective at preventing diseases like measles
+9,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines are a safe and effective way to save lives'}",0.8,one_slider,Scientists,insist,vaccines are a safe and effective way to save lives
+10,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.63,one_slider,Researchers,suspect,the benefits of getting vaccinated far outweigh the risks
+10,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'getting vaccinated can pose serious risks'}",0.27,one_slider,Scientists,suspect,getting vaccinated can pose serious risks
+10,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.56,one_slider,Researchers,point out,concerns over vaccine injuries are generally unfounded
+10,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines do not cause autism'}",0.91,one_slider,Doctors,think,vaccines do not cause autism
+10,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines pose non-trivial risks'}",0.46,one_slider,Doctors,believe,vaccines pose non-trivial risks
+10,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines are not as effective as people think'}",0.67,one_slider,Doctors,believe,vaccines are not as effective as people think
+10,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines have saved countless lives'}",0.83,one_slider,Researchers,think,vaccines have saved countless lives
+10,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.56,one_slider,Scientists,find,vaccines were responsible for some cases of autism in children
+10,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'children should be required to get vaccinated'}",0.29,one_slider,Researchers,argue,children should be required to get vaccinated
+10,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the vaccine-autism link is entirely a myth'}",0.81,one_slider,Scientists,insist,the vaccine-autism link is entirely a myth
+10,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the study linking vaccines to autism has been debunked'}",0.92,one_slider,Doctors,point out,the study linking vaccines to autism has been debunked
+10,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.57,one_slider,Doctors,insist,the mercury contained in vaccines is linked to autism risk
+10,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'many diseases can be contained with vaccines'}",0.27,one_slider,Scientists,think,many diseases can be contained with vaccines
+10,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.59,one_slider,Doctors,argue,thimerosol
+10,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the absolute safety of vaccines is a misconception'}",0.84,one_slider,Doctors,suspect,the absolute safety of vaccines is a misconception
+10,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.32,one_slider,Doctors,argue,vaccines are effective at preventing diseases like measles
+10,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'vaccines do not guarantee immunity'}",0.65,one_slider,Scientists,point out,vaccines do not guarantee immunity
+10,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'the link between vaccines and autism is unfounded'}",0.79,one_slider,Scientists,say,the link between vaccines and autism is unfounded
+10,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccinating children is a crucial measure for public health'}",0.92,one_slider,Researchers,say,vaccinating children is a crucial measure for public health
+10,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.68,one_slider,Doctors,find,we have basically eradicated measles
+10,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.9,one_slider,Doctors,say,vaccines are a safe and effective way to save lives
+10,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0.45,one_slider,Doctors,claim,vaccines are not as safe as many people imagine
+10,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.65,one_slider,Researchers,believe,the campaign to get children vaccinated is driven in large part by drug companies
+10,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.86,one_slider,Researchers,show,without the vaccine
+10,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.88,one_slider,Researchers,claim,we need to be more aware of the risks posed by vaccines
+10,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'there is no link between vaccines and autism'}",0.25,one_slider,Doctors,find,there is no link between vaccines and autism
+10,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'many children have shown adverse reactions to vaccines'}",0.34,one_slider,Researchers,insist,many children have shown adverse reactions to vaccines
+10,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.54,one_slider,Doctors,show,parents should have a choice in whether they vaccinate their children
+10,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.72,one_slider,Doctors,claim,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+10,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.36,one_slider,Scientists,show,people have sometimes still gotten sick
+11,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.95,one_slider,Researchers,say,vaccines are a safe and effective way to save lives
+11,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.26,one_slider,Doctors,show,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+11,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the link between vaccines and autism is unfounded'}",0.93,one_slider,Researchers,point out,the link between vaccines and autism is unfounded
+11,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'children should be required to get vaccinated'}",0.86,one_slider,Researchers,claim,children should be required to get vaccinated
+11,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines do not guarantee immunity'}",0.72,one_slider,Doctors,say,vaccines do not guarantee immunity
+11,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.25,one_slider,Scientists,suspect,the campaign to get children vaccinated is driven in large part by drug companies
+11,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.9,one_slider,Scientists,say,the benefits of getting vaccinated far outweigh the risks
+11,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.86,one_slider,Researchers,think,we need to be more aware of the risks posed by vaccines
+11,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.58,one_slider,Scientists,argue,many children have shown adverse reactions to vaccines
+11,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'there is no link between vaccines and autism'}",0.94,one_slider,Researchers,point out,there is no link between vaccines and autism
+11,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.53,one_slider,Scientists,find,thimerosol
+11,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines have saved countless lives'}",0.92,one_slider,Scientists,believe,vaccines have saved countless lives
+11,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.13,one_slider,Researchers,find,the mercury contained in vaccines is linked to autism risk
+11,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.49,one_slider,Doctors,think,parents should have a choice in whether they vaccinate their children
+11,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.71,one_slider,Scientists,find,people have sometimes still gotten sick
+11,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.61,one_slider,Doctors,insist,concerns over vaccine injuries are generally unfounded
+11,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'the vaccine-autism link is entirely a myth'}",0.91,one_slider,Researchers,believe,the vaccine-autism link is entirely a myth
+11,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines are not as safe as many people imagine'}",0.56,one_slider,Researchers,insist,vaccines are not as safe as many people imagine
+11,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'the study linking vaccines to autism has been debunked'}",0.83,one_slider,Scientists,argue,the study linking vaccines to autism has been debunked
+11,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines are not as effective as people think'}",0.43,one_slider,Doctors,suspect,vaccines are not as effective as people think
+11,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccinating children is a crucial measure for public health'}",0.91,one_slider,Researchers,claim,vaccinating children is a crucial measure for public health
+11,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'getting vaccinated can pose serious risks'}",0.55,one_slider,Doctors,show,getting vaccinated can pose serious risks
+11,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'the absolute safety of vaccines is a misconception'}",0.24,one_slider,Scientists,believe,the absolute safety of vaccines is a misconception
+11,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.09,one_slider,Doctors,insist,vaccines were responsible for some cases of autism in children
+11,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.91,one_slider,Doctors,think,vaccines are effective at preventing diseases like measles
+11,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines do not cause autism'}",0.87,one_slider,Scientists,argue,vaccines do not cause autism
+11,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.95,one_slider,Researchers,point out,we have basically eradicated measles
+11,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines pose non-trivial risks'}",0.88,one_slider,Doctors,suspect,vaccines pose non-trivial risks
+11,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.87,one_slider,Scientists,claim,without the vaccine
+11,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'many diseases can be contained with vaccines'}",0.91,one_slider,Researchers,show,many diseases can be contained with vaccines
+12,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'the study linking vaccines to autism has been debunked'}",0.49,one_slider,Doctors,find,the study linking vaccines to autism has been debunked
+12,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines do not cause autism'}",0.77,one_slider,Researchers,find,vaccines do not cause autism
+12,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'many children have shown adverse reactions to vaccines'}",0.47,one_slider,Scientists,point out,many children have shown adverse reactions to vaccines
+12,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.73,one_slider,Researchers,argue,people have sometimes still gotten sick
+12,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines are a safe and effective way to save lives'}",0.81,one_slider,Researchers,believe,vaccines are a safe and effective way to save lives
+12,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.64,one_slider,Doctors,point out,concerns over vaccine injuries are generally unfounded
+12,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.49,one_slider,Scientists,show,parents should have a choice in whether they vaccinate their children
+12,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccines pose non-trivial risks'}",0.29,one_slider,Scientists,think,vaccines pose non-trivial risks
+12,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'there is no link between vaccines and autism'}",0.65,one_slider,Doctors,insist,there is no link between vaccines and autism
+12,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.87,one_slider,Scientists,point out,we have basically eradicated measles
+12,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines do not guarantee immunity'}",0.29,one_slider,Scientists,claim,vaccines do not guarantee immunity
+12,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'getting vaccinated can pose serious risks'}",0.23,one_slider,Scientists,claim,getting vaccinated can pose serious risks
+12,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'many diseases can be contained with vaccines'}",0.77,one_slider,Researchers,claim,many diseases can be contained with vaccines
+12,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.48,one_slider,Doctors,believe,without the vaccine
+12,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are not as safe as many people imagine'}",0.3,one_slider,Doctors,say,vaccines are not as safe as many people imagine
+12,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines have saved countless lives'}",0.81,one_slider,Researchers,argue,vaccines have saved countless lives
+12,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.53,one_slider,Doctors,suspect,the campaign to get children vaccinated is driven in large part by drug companies
+12,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'the vaccine-autism link is entirely a myth'}",0.87,one_slider,Scientists,find,the vaccine-autism link is entirely a myth
+12,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.17,one_slider,Researchers,think,the benefits of getting vaccinated far outweigh the risks
+12,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'children should be required to get vaccinated'}",0.85,one_slider,Scientists,show,children should be required to get vaccinated
+12,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the link between vaccines and autism is unfounded'}",0.81,one_slider,Scientists,insist,the link between vaccines and autism is unfounded
+12,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.9,one_slider,Researchers,insist,vaccines are effective at preventing diseases like measles
+12,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.2,one_slider,Scientists,argue,the mercury contained in vaccines is linked to autism risk
+12,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.85,one_slider,Scientists,show,we need to be more aware of the risks posed by vaccines
+12,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.16,one_slider,Doctors,believe,vaccines were responsible for some cases of autism in children
+12,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the absolute safety of vaccines is a misconception'}",0.52,one_slider,Doctors,suspect,the absolute safety of vaccines is a misconception
+12,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.21,one_slider,Researchers,suspect,thimerosol
+12,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccinating children is a crucial measure for public health'}",0.83,one_slider,Researchers,say,vaccinating children is a crucial measure for public health
+12,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines are not as effective as people think'}",0.21,one_slider,Doctors,think,vaccines are not as effective as people think
+12,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.24,one_slider,Researchers,say,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+13,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.09,one_slider,Scientists,point out,the benefits of getting vaccinated far outweigh the risks
+13,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.72,one_slider,Researchers,insist,people have sometimes still gotten sick
+13,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the link between vaccines and autism is unfounded'}",0.15,one_slider,Doctors,think,the link between vaccines and autism is unfounded
+13,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccinating children is a crucial measure for public health'}",0.49,one_slider,Doctors,argue,vaccinating children is a crucial measure for public health
+13,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.6,one_slider,Researchers,point out,vaccines are effective at preventing diseases like measles
+13,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines do not guarantee immunity'}",0.66,one_slider,Doctors,say,vaccines do not guarantee immunity
+13,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'getting vaccinated can pose serious risks'}",0.66,one_slider,Doctors,believe,getting vaccinated can pose serious risks
+13,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the vaccine-autism link is entirely a myth'}",0.27,one_slider,Researchers,claim,the vaccine-autism link is entirely a myth
+13,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'there is no link between vaccines and autism'}",0.25,one_slider,Doctors,believe,there is no link between vaccines and autism
+13,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are not as effective as people think'}",0.48,one_slider,Doctors,say,vaccines are not as effective as people think
+13,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.2,one_slider,Doctors,think,parents should have a choice in whether they vaccinate their children
+13,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.61,one_slider,Doctors,argue,we need to be more aware of the risks posed by vaccines
+13,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.71,one_slider,Doctors,show,we have basically eradicated measles
+13,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'children should be required to get vaccinated'}",0.63,one_slider,Scientists,show,children should be required to get vaccinated
+13,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.5,one_slider,Scientists,insist,concerns over vaccine injuries are generally unfounded
+13,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines pose non-trivial risks'}",0.65,one_slider,Doctors,point out,vaccines pose non-trivial risks
+13,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'many diseases can be contained with vaccines'}",0.62,one_slider,Doctors,find,many diseases can be contained with vaccines
+13,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'the absolute safety of vaccines is a misconception'}",0.51,one_slider,Doctors,find,the absolute safety of vaccines is a misconception
+13,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the study linking vaccines to autism has been debunked'}",0.24,one_slider,Researchers,insist,the study linking vaccines to autism has been debunked
+13,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'many children have shown adverse reactions to vaccines'}",0.52,one_slider,Doctors,suspect,many children have shown adverse reactions to vaccines
+13,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.64,one_slider,Doctors,claim,the campaign to get children vaccinated is driven in large part by drug companies
+13,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.48,one_slider,Scientists,suspect,the mercury contained in vaccines is linked to autism risk
+13,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are not as safe as many people imagine'}",0.61,one_slider,Researchers,say,vaccines are not as safe as many people imagine
+13,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines have saved countless lives'}",0.59,one_slider,Researchers,show,vaccines have saved countless lives
+13,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.71,one_slider,Researchers,argue,without the vaccine
+13,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.49,one_slider,Doctors,suspect,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+13,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines are a safe and effective way to save lives'}",0.62,one_slider,Doctors,think,vaccines are a safe and effective way to save lives
+13,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines do not cause autism'}",0.36,one_slider,Researchers,find,vaccines do not cause autism
+13,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.44,one_slider,Researchers,believe,vaccines were responsible for some cases of autism in children
+13,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.44,one_slider,Scientists,claim,thimerosol
+14,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.92,one_slider,Doctors,say,parents should have a choice in whether they vaccinate their children
+14,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.5,one_slider,Researchers,believe,vaccines were responsible for some cases of autism in children
+14,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'many diseases can be contained with vaccines'}",0.16,one_slider,Researchers,claim,many diseases can be contained with vaccines
+14,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the study linking vaccines to autism has been debunked'}",0.24,one_slider,Researchers,show,the study linking vaccines to autism has been debunked
+14,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'many children have shown adverse reactions to vaccines'}",0.21,one_slider,Researchers,show,many children have shown adverse reactions to vaccines
+14,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.25,one_slider,Doctors,find,people have sometimes still gotten sick
+14,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines do not cause autism'}",0.76,one_slider,Scientists,claim,vaccines do not cause autism
+14,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.76,one_slider,Doctors,suspect,the benefits of getting vaccinated far outweigh the risks
+14,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.27,one_slider,Researchers,find,the mercury contained in vaccines is linked to autism risk
+14,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'children should be required to get vaccinated'}",0.78,one_slider,Scientists,think,children should be required to get vaccinated
+14,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the link between vaccines and autism is unfounded'}",0.52,one_slider,Researchers,show,the link between vaccines and autism is unfounded
+14,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.2,one_slider,Scientists,point out,the campaign to get children vaccinated is driven in large part by drug companies
+14,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.08,one_slider,Researchers,believe,thimerosol
+14,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.83,one_slider,Researchers,think,without the vaccine
+14,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines have saved countless lives'}",0.84,one_slider,Doctors,suspect,vaccines have saved countless lives
+14,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the vaccine-autism link is entirely a myth'}",0.84,one_slider,Researchers,insist,the vaccine-autism link is entirely a myth
+14,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.9,one_slider,Researchers,say,vaccines are a safe and effective way to save lives
+14,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.89,one_slider,Researchers,find,we need to be more aware of the risks posed by vaccines
+14,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.94,one_slider,Doctors,claim,vaccines are effective at preventing diseases like measles
+14,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.96,one_slider,Doctors,insist,we have basically eradicated measles
+14,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the absolute safety of vaccines is a misconception'}",0.83,one_slider,Scientists,point out,the absolute safety of vaccines is a misconception
+14,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.15,one_slider,Scientists,argue,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+14,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines do not guarantee immunity'}",0.12,one_slider,Doctors,point out,vaccines do not guarantee immunity
+14,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'getting vaccinated can pose serious risks'}",0.09,one_slider,Scientists,suspect,getting vaccinated can pose serious risks
+14,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'there is no link between vaccines and autism'}",0.87,one_slider,Doctors,argue,there is no link between vaccines and autism
+14,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.51,one_slider,Researchers,believe,concerns over vaccine injuries are generally unfounded
+14,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are not as effective as people think'}",0.21,one_slider,Doctors,say,vaccines are not as effective as people think
+14,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.12,one_slider,Doctors,argue,vaccines are not as safe as many people imagine
+14,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines pose non-trivial risks'}",0.16,one_slider,Researchers,insist,vaccines pose non-trivial risks
+14,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccinating children is a crucial measure for public health'}",0.7,one_slider,Scientists,think,vaccinating children is a crucial measure for public health
+15,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'there is no link between vaccines and autism'}",0.94,one_slider,Scientists,point out,there is no link between vaccines and autism
+15,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'children should be required to get vaccinated'}",0.78,one_slider,Doctors,argue,children should be required to get vaccinated
+15,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.96,one_slider,Doctors,suspect,we have basically eradicated measles
+15,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the absolute safety of vaccines is a misconception'}",0.04,one_slider,Researchers,suspect,the absolute safety of vaccines is a misconception
+15,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.87,one_slider,Scientists,claim,people have sometimes still gotten sick
+15,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.3,one_slider,Researchers,point out,parents should have a choice in whether they vaccinate their children
+15,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccines are not as safe as many people imagine'}",0.14,one_slider,Doctors,insist,vaccines are not as safe as many people imagine
+15,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.83,one_slider,Scientists,show,the benefits of getting vaccinated far outweigh the risks
+15,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.05,one_slider,Researchers,say,thimerosol
+15,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are not as effective as people think'}",0.1,one_slider,Researchers,say,vaccines are not as effective as people think
+15,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines are a safe and effective way to save lives'}",0.94,one_slider,Scientists,find,vaccines are a safe and effective way to save lives
+15,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines do not cause autism'}",0.84,one_slider,Scientists,claim,vaccines do not cause autism
+15,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.81,one_slider,Researchers,believe,we need to be more aware of the risks posed by vaccines
+15,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccinating children is a crucial measure for public health'}",0.88,one_slider,Scientists,suspect,vaccinating children is a crucial measure for public health
+15,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.14,one_slider,Researchers,show,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+15,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.9,one_slider,Doctors,point out,without the vaccine
+15,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'many diseases can be contained with vaccines'}",0.85,one_slider,Scientists,think,many diseases can be contained with vaccines
+15,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines have saved countless lives'}",0.95,one_slider,Doctors,find,vaccines have saved countless lives
+15,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'getting vaccinated can pose serious risks'}",0.07,one_slider,Scientists,argue,getting vaccinated can pose serious risks
+15,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines pose non-trivial risks'}",0.1,one_slider,Scientists,find,vaccines pose non-trivial risks
+15,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the vaccine-autism link is entirely a myth'}",0.97,one_slider,Doctors,think,the vaccine-autism link is entirely a myth
+15,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.05,one_slider,Researchers,insist,the mercury contained in vaccines is linked to autism risk
+15,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.1,one_slider,Researchers,believe,vaccines were responsible for some cases of autism in children
+15,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'many children have shown adverse reactions to vaccines'}",0.06,one_slider,Scientists,insist,many children have shown adverse reactions to vaccines
+15,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.88,one_slider,Doctors,say,concerns over vaccine injuries are generally unfounded
+15,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.93,one_slider,Doctors,believe,vaccines are effective at preventing diseases like measles
+15,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.05,one_slider,Scientists,claim,the campaign to get children vaccinated is driven in large part by drug companies
+15,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'the study linking vaccines to autism has been debunked'}",0.95,one_slider,Scientists,argue,the study linking vaccines to autism has been debunked
+15,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'the link between vaccines and autism is unfounded'}",0.94,one_slider,Scientists,show,the link between vaccines and autism is unfounded
+15,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines do not guarantee immunity'}",0.1,one_slider,Researchers,think,vaccines do not guarantee immunity
+16,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.07,one_slider,Researchers,point out,the mercury contained in vaccines is linked to autism risk
+16,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.69,one_slider,Doctors,suspect,we have basically eradicated measles
+16,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.94,one_slider,Doctors,find,vaccines are effective at preventing diseases like measles
+16,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'getting vaccinated can pose serious risks'}",0.08,one_slider,Researchers,say,getting vaccinated can pose serious risks
+16,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'many diseases can be contained with vaccines'}",0.98,one_slider,Doctors,believe,many diseases can be contained with vaccines
+16,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.13,one_slider,Researchers,find,parents should have a choice in whether they vaccinate their children
+16,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.95,one_slider,Researchers,argue,concerns over vaccine injuries are generally unfounded
+16,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines do not cause autism'}",0.95,one_slider,Researchers,think,vaccines do not cause autism
+16,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.04,one_slider,Doctors,think,vaccines were responsible for some cases of autism in children
+16,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'children should be required to get vaccinated'}",0.98,one_slider,Doctors,say,children should be required to get vaccinated
+16,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccinating children is a crucial measure for public health'}",0.98,one_slider,Scientists,claim,vaccinating children is a crucial measure for public health
+16,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.32,one_slider,Doctors,believe,the campaign to get children vaccinated is driven in large part by drug companies
+16,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the link between vaccines and autism is unfounded'}",0.93,one_slider,Researchers,show,the link between vaccines and autism is unfounded
+16,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines pose non-trivial risks'}",0.16,one_slider,Researchers,show,vaccines pose non-trivial risks
+16,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.2,one_slider,Researchers,think,we need to be more aware of the risks posed by vaccines
+16,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the study linking vaccines to autism has been debunked'}",0.94,one_slider,Doctors,say,the study linking vaccines to autism has been debunked
+16,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",0.94,one_slider,Researchers,point out,the vaccine-autism link is entirely a myth
+16,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines are not as effective as people think'}",0.11,one_slider,Scientists,insist,vaccines are not as effective as people think
+16,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccines do not guarantee immunity'}",0.5,one_slider,Scientists,show,vaccines do not guarantee immunity
+16,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.27,one_slider,Scientists,suspect,thimerosol
+16,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines are a safe and effective way to save lives'}",0.95,one_slider,Doctors,believe,vaccines are a safe and effective way to save lives
+16,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'vaccines are not as safe as many people imagine'}",0.05,one_slider,Researchers,suspect,vaccines are not as safe as many people imagine
+16,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.04,one_slider,Doctors,argue,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+16,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'there is no link between vaccines and autism'}",0.95,one_slider,Scientists,claim,there is no link between vaccines and autism
+16,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines have saved countless lives'}",0.98,one_slider,Scientists,insist,vaccines have saved countless lives
+16,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.04,one_slider,Researchers,argue,many children have shown adverse reactions to vaccines
+16,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'the absolute safety of vaccines is a misconception'}",0.14,one_slider,Doctors,find,the absolute safety of vaccines is a misconception
+16,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.99,one_slider,Scientists,insist,the benefits of getting vaccinated far outweigh the risks
+16,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.51,one_slider,Researchers,point out,people have sometimes still gotten sick
+16,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.98,one_slider,Scientists,claim,without the vaccine
+17,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.07,one_slider,Scientists,insist,the mercury contained in vaccines is linked to autism risk
+17,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'the vaccine-autism link is entirely a myth'}",1,one_slider,Scientists,show,the vaccine-autism link is entirely a myth
+17,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0,one_slider,Researchers,point out,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+17,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the study linking vaccines to autism has been debunked'}",1,one_slider,Researchers,suspect,the study linking vaccines to autism has been debunked
+17,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are effective at preventing diseases like measles'}",1,one_slider,Doctors,say,vaccines are effective at preventing diseases like measles
+17,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",1,one_slider,Doctors,suspect,children should be required to get vaccinated
+17,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'many children have shown adverse reactions to vaccines'}",0.16,one_slider,Doctors,find,many children have shown adverse reactions to vaccines
+17,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines do not cause autism'}",1,one_slider,Doctors,claim,vaccines do not cause autism
+17,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccines pose non-trivial risks'}",0.31,one_slider,Researchers,point out,vaccines pose non-trivial risks
+17,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.2,one_slider,Doctors,show,thimerosol
+17,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'the absolute safety of vaccines is a misconception'}",0.68,one_slider,Researchers,say,the absolute safety of vaccines is a misconception
+17,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines have saved countless lives'}",1,one_slider,Doctors,think,vaccines have saved countless lives
+17,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.03,one_slider,Doctors,believe,vaccines were responsible for some cases of autism in children
+17,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'there is no link between vaccines and autism'}",1,one_slider,Scientists,say,there is no link between vaccines and autism
+17,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.98,one_slider,Researchers,insist,concerns over vaccine injuries are generally unfounded
+17,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'many diseases can be contained with vaccines'}",1,one_slider,Scientists,point out,many diseases can be contained with vaccines
+17,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccinating children is a crucial measure for public health'}",1,one_slider,Researchers,argue,vaccinating children is a crucial measure for public health
+17,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0,one_slider,Scientists,claim,vaccines are not as safe as many people imagine
+17,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.95,one_slider,Doctors,claim,we have basically eradicated measles
+17,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.15,one_slider,Researchers,argue,the campaign to get children vaccinated is driven in large part by drug companies
+17,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.49,one_slider,Scientists,believe,parents should have a choice in whether they vaccinate their children
+17,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'the link between vaccines and autism is unfounded'}",1,one_slider,Scientists,find,the link between vaccines and autism is unfounded
+17,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",1,one_slider,Doctors,insist,without the vaccine
+17,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines are a safe and effective way to save lives'}",1,one_slider,Researchers,show,vaccines are a safe and effective way to save lives
+17,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",1,one_slider,Researchers,suspect,the benefits of getting vaccinated far outweigh the risks
+17,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'vaccines are not as effective as people think'}",0.05,one_slider,Doctors,believe,vaccines are not as effective as people think
+17,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines do not guarantee immunity'}",0.53,one_slider,Doctors,think,vaccines do not guarantee immunity
+17,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.59,one_slider,Scientists,think,people have sometimes still gotten sick
+17,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.45,one_slider,Scientists,find,we need to be more aware of the risks posed by vaccines
+17,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'getting vaccinated can pose serious risks'}",0.1,one_slider,Researchers,argue,getting vaccinated can pose serious risks
+18,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'many children have shown adverse reactions to vaccines'}",0.07,one_slider,Doctors,claim,many children have shown adverse reactions to vaccines
+18,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccines do not cause autism'}",0.96,one_slider,Researchers,claim,vaccines do not cause autism
+18,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.97,one_slider,Scientists,argue,concerns over vaccine injuries are generally unfounded
+18,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",0.98,one_slider,Researchers,suspect,children should be required to get vaccinated
+18,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.57,one_slider,Researchers,say,people have sometimes still gotten sick
+18,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.85,one_slider,Doctors,think,the benefits of getting vaccinated far outweigh the risks
+18,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'the study linking vaccines to autism has been debunked'}",0.96,one_slider,Doctors,insist,the study linking vaccines to autism has been debunked
+18,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'there is no link between vaccines and autism'}",0.96,one_slider,Scientists,claim,there is no link between vaccines and autism
+18,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'vaccines have saved countless lives'}",0.9,one_slider,Scientists,find,vaccines have saved countless lives
+18,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.53,one_slider,Doctors,point out,thimerosol
+18,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'getting vaccinated can pose serious risks'}",0.22,one_slider,Doctors,show,getting vaccinated can pose serious risks
+18,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines are a safe and effective way to save lives'}",0.99,one_slider,Scientists,believe,vaccines are a safe and effective way to save lives
+18,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines do not guarantee immunity'}",0.53,one_slider,Doctors,suspect,vaccines do not guarantee immunity
+18,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.79,one_slider,Doctors,believe,we have basically eradicated measles
+18,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccinating children is a crucial measure for public health'}",0.98,one_slider,Scientists,insist,vaccinating children is a crucial measure for public health
+18,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'many diseases can be contained with vaccines'}",0.91,one_slider,Scientists,insist,many diseases can be contained with vaccines
+18,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the link between vaccines and autism is unfounded'}",0.98,one_slider,Doctors,believe,the link between vaccines and autism is unfounded
+18,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccines are not as safe as many people imagine'}",0.03,one_slider,Scientists,suspect,vaccines are not as safe as many people imagine
+18,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the absolute safety of vaccines is a misconception'}",0.05,one_slider,Researchers,show,the absolute safety of vaccines is a misconception
+18,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.03,one_slider,Scientists,point out,the mercury contained in vaccines is linked to autism risk
+18,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines are not as effective as people think'}",0.08,one_slider,Scientists,say,vaccines are not as effective as people think
+18,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.07,one_slider,Scientists,think,the campaign to get children vaccinated is driven in large part by drug companies
+18,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.92,one_slider,Researchers,say,vaccines are effective at preventing diseases like measles
+18,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.12,one_slider,Doctors,argue,we need to be more aware of the risks posed by vaccines
+18,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",0.99,one_slider,Scientists,point out,the vaccine-autism link is entirely a myth
+18,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.96,one_slider,Researchers,find,without the vaccine
+18,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines were responsible for some cases of autism in children'}",0,one_slider,Researchers,find,vaccines were responsible for some cases of autism in children
+18,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccines pose non-trivial risks'}",0.05,one_slider,Doctors,show,vaccines pose non-trivial risks
+18,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.48,one_slider,Doctors,think,parents should have a choice in whether they vaccinate their children
+18,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.07,one_slider,Doctors,argue,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+19,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the study linking vaccines to autism has been debunked'}",0.82,one_slider,Scientists,think,the study linking vaccines to autism has been debunked
+19,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.99,one_slider,Doctors,find,vaccines are effective at preventing diseases like measles
+19,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.63,one_slider,Doctors,think,vaccines were responsible for some cases of autism in children
+19,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'many diseases can be contained with vaccines'}",0.98,one_slider,Researchers,point out,many diseases can be contained with vaccines
+19,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines are not as effective as people think'}",0.36,one_slider,Researchers,insist,vaccines are not as effective as people think
+19,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.29,one_slider,Researchers,claim,the mercury contained in vaccines is linked to autism risk
+19,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccines do not cause autism'}",0.94,one_slider,Doctors,argue,vaccines do not cause autism
+19,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'many children have shown adverse reactions to vaccines'}",0.71,one_slider,Scientists,suspect,many children have shown adverse reactions to vaccines
+19,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.83,one_slider,Scientists,find,we need to be more aware of the risks posed by vaccines
+19,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.82,one_slider,Scientists,believe,thimerosol
+19,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.57,one_slider,Researchers,show,the campaign to get children vaccinated is driven in large part by drug companies
+19,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'vaccines have saved countless lives'}",0.98,one_slider,Researchers,claim,vaccines have saved countless lives
+19,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.97,one_slider,Scientists,think,the benefits of getting vaccinated far outweigh the risks
+19,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'getting vaccinated can pose serious risks'}",0.42,one_slider,Doctors,say,getting vaccinated can pose serious risks
+19,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.4,one_slider,Scientists,insist,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+19,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the vaccine-autism link is entirely a myth'}",0.96,one_slider,Doctors,say,the vaccine-autism link is entirely a myth
+19,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccinating children is a crucial measure for public health'}",0.98,one_slider,Scientists,show,vaccinating children is a crucial measure for public health
+19,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.57,one_slider,Doctors,point out,people have sometimes still gotten sick
+19,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.96,one_slider,Doctors,suspect,we have basically eradicated measles
+19,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'there is no link between vaccines and autism'}",0.9,one_slider,Researchers,believe,there is no link between vaccines and autism
+19,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the link between vaccines and autism is unfounded'}",0.95,one_slider,Doctors,suspect,the link between vaccines and autism is unfounded
+19,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'vaccines do not guarantee immunity'}",0.58,one_slider,Scientists,show,vaccines do not guarantee immunity
+19,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.96,one_slider,Scientists,point out,without the vaccine
+19,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'vaccines are a safe and effective way to save lives'}",0.96,one_slider,Researchers,believe,vaccines are a safe and effective way to save lives
+19,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'the absolute safety of vaccines is a misconception'}",0.43,one_slider,Researchers,insist,the absolute safety of vaccines is a misconception
+19,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.78,one_slider,Doctors,argue,concerns over vaccine injuries are generally unfounded
+19,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'children should be required to get vaccinated'}",0.84,one_slider,Researchers,say,children should be required to get vaccinated
+19,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines pose non-trivial risks'}",0.96,one_slider,Researchers,find,vaccines pose non-trivial risks
+19,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.52,one_slider,Researchers,argue,parents should have a choice in whether they vaccinate their children
+19,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0.42,one_slider,Scientists,claim,vaccines are not as safe as many people imagine
+20,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.89,one_slider,Doctors,point out,the benefits of getting vaccinated far outweigh the risks
+20,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.26,one_slider,Researchers,think,vaccines were responsible for some cases of autism in children
+20,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.93,one_slider,Researchers,claim,concerns over vaccine injuries are generally unfounded
+20,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'the study linking vaccines to autism has been debunked'}",0.92,one_slider,Doctors,show,the study linking vaccines to autism has been debunked
+20,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.94,one_slider,Doctors,find,we have basically eradicated measles
+20,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.24,one_slider,Scientists,claim,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+20,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines do not guarantee immunity'}",0.85,one_slider,Scientists,believe,vaccines do not guarantee immunity
+20,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'vaccines pose non-trivial risks'}",0.75,one_slider,Doctors,think,vaccines pose non-trivial risks
+20,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.16,one_slider,Researchers,say,the campaign to get children vaccinated is driven in large part by drug companies
+20,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.87,one_slider,Scientists,suspect,parents should have a choice in whether they vaccinate their children
+20,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccines have saved countless lives'}",0.9,one_slider,Doctors,show,vaccines have saved countless lives
+20,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'the link between vaccines and autism is unfounded'}",0.98,one_slider,Doctors,suspect,the link between vaccines and autism is unfounded
+20,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'there is no link between vaccines and autism'}",0.98,one_slider,Doctors,show,there is no link between vaccines and autism
+20,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.51,one_slider,Researchers,point out,we need to be more aware of the risks posed by vaccines
+20,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.19,one_slider,Doctors,argue,many children have shown adverse reactions to vaccines
+20,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccinating children is a crucial measure for public health'}",0.78,one_slider,Doctors,insist,vaccinating children is a crucial measure for public health
+20,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.18,one_slider,Researchers,say,people have sometimes still gotten sick
+20,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.88,one_slider,Doctors,find,vaccines are effective at preventing diseases like measles
+20,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.17,one_slider,Scientists,insist,the mercury contained in vaccines is linked to autism risk
+20,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.17,one_slider,Scientists,argue,thimerosol
+20,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines are a safe and effective way to save lives'}",0.89,one_slider,Doctors,find,vaccines are a safe and effective way to save lives
+20,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines do not cause autism'}",0.88,one_slider,Scientists,believe,vaccines do not cause autism
+20,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.14,one_slider,Researchers,argue,vaccines are not as safe as many people imagine
+20,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'many diseases can be contained with vaccines'}",0.82,one_slider,Doctors,think,many diseases can be contained with vaccines
+20,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.83,one_slider,Scientists,say,without the vaccine
+20,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines are not as effective as people think'}",0.13,one_slider,Scientists,believe,vaccines are not as effective as people think
+20,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'the absolute safety of vaccines is a misconception'}",0.08,one_slider,Doctors,claim,the absolute safety of vaccines is a misconception
+20,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",0.9,one_slider,Scientists,point out,the vaccine-autism link is entirely a myth
+20,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'children should be required to get vaccinated'}",0.48,one_slider,Scientists,suspect,children should be required to get vaccinated
+20,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'getting vaccinated can pose serious risks'}",0.16,one_slider,Researchers,insist,getting vaccinated can pose serious risks
+21,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.05,one_slider,Researchers,point out,vaccines were responsible for some cases of autism in children
+21,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.99,one_slider,Researchers,show,vaccines are effective at preventing diseases like measles
+21,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.98,one_slider,Doctors,say,without the vaccine
+21,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines do not cause autism'}",0.95,one_slider,Researchers,think,vaccines do not cause autism
+21,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.12,one_slider,Doctors,show,we need to be more aware of the risks posed by vaccines
+21,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.03,one_slider,Doctors,suspect,parents should have a choice in whether they vaccinate their children
+21,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'the absolute safety of vaccines is a misconception'}",0.4,one_slider,Doctors,find,the absolute safety of vaccines is a misconception
+21,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines do not guarantee immunity'}",0.54,one_slider,Scientists,argue,vaccines do not guarantee immunity
+21,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'many children have shown adverse reactions to vaccines'}",0.34,one_slider,Doctors,point out,many children have shown adverse reactions to vaccines
+21,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.24,one_slider,Scientists,think,the mercury contained in vaccines is linked to autism risk
+21,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.73,one_slider,Researchers,find,concerns over vaccine injuries are generally unfounded
+21,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines pose non-trivial risks'}",0.23,one_slider,Scientists,say,vaccines pose non-trivial risks
+21,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'many diseases can be contained with vaccines'}",0.77,one_slider,Researchers,think,many diseases can be contained with vaccines
+21,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.97,one_slider,Scientists,believe,the benefits of getting vaccinated far outweigh the risks
+21,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.14,one_slider,Scientists,claim,the campaign to get children vaccinated is driven in large part by drug companies
+21,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.13,one_slider,Doctors,insist,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+21,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'children should be required to get vaccinated'}",0.92,one_slider,Scientists,believe,children should be required to get vaccinated
+21,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the vaccine-autism link is entirely a myth'}",0.82,one_slider,Doctors,point out,the vaccine-autism link is entirely a myth
+21,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'there is no link between vaccines and autism'}",0.71,one_slider,Scientists,insist,there is no link between vaccines and autism
+21,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.85,one_slider,Scientists,show,we have basically eradicated measles
+21,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccines are a safe and effective way to save lives'}",0.91,one_slider,Researchers,argue,vaccines are a safe and effective way to save lives
+21,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'getting vaccinated can pose serious risks'}",0.33,one_slider,Researchers,claim,getting vaccinated can pose serious risks
+21,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccines have saved countless lives'}",0.88,one_slider,Scientists,insist,vaccines have saved countless lives
+21,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.55,one_slider,Researchers,say,people have sometimes still gotten sick
+21,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'the study linking vaccines to autism has been debunked'}",0.58,one_slider,Doctors,find,the study linking vaccines to autism has been debunked
+21,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'the link between vaccines and autism is unfounded'}",0.94,one_slider,Scientists,suspect,the link between vaccines and autism is unfounded
+21,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccines are not as effective as people think'}",0.47,one_slider,Scientists,suspect,vaccines are not as effective as people think
+21,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines are not as safe as many people imagine'}",0.43,one_slider,Scientists,argue,vaccines are not as safe as many people imagine
+21,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccinating children is a crucial measure for public health'}",0.79,one_slider,Scientists,believe,vaccinating children is a crucial measure for public health
+21,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.52,one_slider,Doctors,claim,thimerosol
+22,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.87,one_slider,Researchers,show,the campaign to get children vaccinated is driven in large part by drug companies
+22,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.78,one_slider,Doctors,say,vaccines are a safe and effective way to save lives
+22,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the absolute safety of vaccines is a misconception'}",0.51,one_slider,Scientists,insist,the absolute safety of vaccines is a misconception
+22,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'vaccines do not guarantee immunity'}",0.94,one_slider,Scientists,argue,vaccines do not guarantee immunity
+22,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'vaccines do not cause autism'}",0.5,one_slider,Scientists,say,vaccines do not cause autism
+22,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'vaccines are not as safe as many people imagine'}",0.72,one_slider,Scientists,believe,vaccines are not as safe as many people imagine
+22,"{'subject': 'Scientists', 'verb': 'say', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.79,one_slider,Scientists,say,we need to be more aware of the risks posed by vaccines
+22,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are not as effective as people think'}",0.23,one_slider,Doctors,claim,vaccines are not as effective as people think
+22,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.35,one_slider,Scientists,show,we have basically eradicated measles
+22,"{'subject': 'Doctors', 'verb': 'believe', 'comp': 'the link between vaccines and autism is unfounded'}",0.51,one_slider,Doctors,believe,the link between vaccines and autism is unfounded
+22,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'there is no link between vaccines and autism'}",0.81,one_slider,Doctors,insist,there is no link between vaccines and autism
+22,"{'subject': 'Scientists', 'verb': 'find', 'comp': 'many diseases can be contained with vaccines'}",0.9,one_slider,Scientists,find,many diseases can be contained with vaccines
+22,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'children should be required to get vaccinated'}",0.11,one_slider,Scientists,believe,children should be required to get vaccinated
+22,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the vaccine-autism link is entirely a myth'}",0.18,one_slider,Researchers,claim,the vaccine-autism link is entirely a myth
+22,"{'subject': 'Doctors', 'verb': 'insist', 'comp': 'many children have shown adverse reactions to vaccines'}",0.75,one_slider,Doctors,insist,many children have shown adverse reactions to vaccines
+22,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines pose non-trivial risks'}",0.76,one_slider,Researchers,think,vaccines pose non-trivial risks
+22,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.79,one_slider,Scientists,suspect,the mercury contained in vaccines is linked to autism risk
+22,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.71,one_slider,Scientists,point out,without the vaccine
+22,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines have saved countless lives'}",0.77,one_slider,Doctors,suspect,vaccines have saved countless lives
+22,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.94,one_slider,Doctors,find,parents should have a choice in whether they vaccinate their children
+22,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccinating children is a crucial measure for public health'}",0.51,one_slider,Doctors,suspect,vaccinating children is a crucial measure for public health
+22,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.19,one_slider,Doctors,point out,vaccines were responsible for some cases of autism in children
+22,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.69,one_slider,Researchers,argue,the benefits of getting vaccinated far outweigh the risks
+22,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.24,one_slider,Doctors,show,concerns over vaccine injuries are generally unfounded
+22,"{'subject': 'Researchers', 'verb': 'find', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.28,one_slider,Researchers,find,vaccines are effective at preventing diseases like measles
+22,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'getting vaccinated can pose serious risks'}",0.16,one_slider,Doctors,argue,getting vaccinated can pose serious risks
+22,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.65,one_slider,Scientists,point out,people have sometimes still gotten sick
+22,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.74,one_slider,Scientists,think,thimerosol
+22,"{'subject': 'Scientists', 'verb': 'think', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.67,one_slider,Scientists,think,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+22,"{'subject': 'Researchers', 'verb': 'claim', 'comp': 'the study linking vaccines to autism has been debunked'}",0.75,one_slider,Researchers,claim,the study linking vaccines to autism has been debunked
+23,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",0.97,one_slider,Doctors,say,we have basically eradicated measles
+23,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.91,one_slider,Doctors,claim,concerns over vaccine injuries are generally unfounded
+23,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'vaccines do not guarantee immunity'}",0.81,one_slider,Doctors,show,vaccines do not guarantee immunity
+23,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'the absolute safety of vaccines is a misconception'}",0.3,one_slider,Researchers,think,the absolute safety of vaccines is a misconception
+23,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'vaccines have saved countless lives'}",0.95,one_slider,Scientists,claim,vaccines have saved countless lives
+23,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines are not as safe as many people imagine'}",0.2,one_slider,Doctors,claim,vaccines are not as safe as many people imagine
+23,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines are a safe and effective way to save lives'}",0.96,one_slider,Doctors,say,vaccines are a safe and effective way to save lives
+23,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.11,one_slider,Researchers,point out,the mercury contained in vaccines is linked to autism risk
+23,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.33,one_slider,Researchers,believe,thimerosol
+23,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.88,one_slider,Scientists,insist,people have sometimes still gotten sick
+23,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",0.97,one_slider,Doctors,point out,the benefits of getting vaccinated far outweigh the risks
+23,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'getting vaccinated can pose serious risks'}",0.1,one_slider,Scientists,believe,getting vaccinated can pose serious risks
+23,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccinating children is a crucial measure for public health'}",0.93,one_slider,Researchers,argue,vaccinating children is a crucial measure for public health
+23,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'the link between vaccines and autism is unfounded'}",0.96,one_slider,Doctors,say,the link between vaccines and autism is unfounded
+23,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.08,one_slider,Doctors,think,the campaign to get children vaccinated is driven in large part by drug companies
+23,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.07,one_slider,Doctors,find,vaccines were responsible for some cases of autism in children
+23,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'the study linking vaccines to autism has been debunked'}",0.94,one_slider,Scientists,believe,the study linking vaccines to autism has been debunked
+23,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.14,one_slider,Researchers,suspect,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+23,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'many diseases can be contained with vaccines'}",0.77,one_slider,Doctors,find,many diseases can be contained with vaccines
+23,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.27,one_slider,Researchers,show,parents should have a choice in whether they vaccinate their children
+23,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'children should be required to get vaccinated'}",0.92,one_slider,Scientists,insist,children should be required to get vaccinated
+23,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'the vaccine-autism link is entirely a myth'}",0.95,one_slider,Researchers,suspect,the vaccine-autism link is entirely a myth
+23,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.08,one_slider,Scientists,insist,we need to be more aware of the risks posed by vaccines
+23,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.97,one_slider,Researchers,think,without the vaccine
+23,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'vaccines are not as effective as people think'}",0.09,one_slider,Doctors,argue,vaccines are not as effective as people think
+23,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'vaccines do not cause autism'}",0.93,one_slider,Doctors,find,vaccines do not cause autism
+23,"{'subject': 'Doctors', 'verb': 'point out', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.93,one_slider,Doctors,point out,vaccines are effective at preventing diseases like measles
+23,"{'subject': 'Scientists', 'verb': 'argue', 'comp': 'many children have shown adverse reactions to vaccines'}",0.19,one_slider,Scientists,argue,many children have shown adverse reactions to vaccines
+23,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'there is no link between vaccines and autism'}",0.96,one_slider,Researchers,suspect,there is no link between vaccines and autism
+23,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines pose non-trivial risks'}",0.95,one_slider,Researchers,show,vaccines pose non-trivial risks
+24,"{'subject': 'Researchers', 'verb': 'point out', 'comp': 'the benefits of getting vaccinated far outweigh the risks'}",1,one_slider,Researchers,point out,the benefits of getting vaccinated far outweigh the risks
+24,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'the mercury contained in vaccines is linked to autism risk'}",0.23,one_slider,Doctors,argue,the mercury contained in vaccines is linked to autism risk
+24,"{'subject': 'Researchers', 'verb': 'insist', 'comp': 'vaccines are not as effective as people think'}",0.24,one_slider,Researchers,insist,vaccines are not as effective as people think
+24,"{'subject': 'Researchers', 'verb': 'say', 'comp': 'vaccines do not cause autism'}",0.77,one_slider,Researchers,say,vaccines do not cause autism
+24,"{'subject': 'Researchers', 'verb': 'believe', 'comp': 'we have basically eradicated measles, thanks to vaccines'}",1,one_slider,Researchers,believe,we have basically eradicated measles
+24,"{'subject': 'Scientists', 'verb': 'claim', 'comp': 'the campaign to get children vaccinated is driven in large part by drug companies'}",0.5,one_slider,Scientists,claim,the campaign to get children vaccinated is driven in large part by drug companies
+24,"{'subject': 'Doctors', 'verb': 'argue', 'comp': 'getting vaccinated can pose serious risks'}",0.2,one_slider,Doctors,argue,getting vaccinated can pose serious risks
+24,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'without the vaccine, the epidemic would have been far more widespread'}",0.74,one_slider,Scientists,believe,without the vaccine
+24,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'parents should have a choice in whether they vaccinate their children'}",0.99,one_slider,Doctors,find,parents should have a choice in whether they vaccinate their children
+24,"{'subject': 'Doctors', 'verb': 'suspect', 'comp': 'vaccines are not as safe as many people imagine'}",0.19,one_slider,Doctors,suspect,vaccines are not as safe as many people imagine
+24,"{'subject': 'Doctors', 'verb': 'show', 'comp': 'the absolute safety of vaccines is a misconception'}",0.27,one_slider,Doctors,show,the absolute safety of vaccines is a misconception
+24,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'vaccinating children is a crucial measure for public health'}",0.83,one_slider,Scientists,insist,vaccinating children is a crucial measure for public health
+24,"{'subject': 'Researchers', 'verb': 'suspect', 'comp': 'many children have shown adverse reactions to vaccines'}",0.17,one_slider,Researchers,suspect,many children have shown adverse reactions to vaccines
+24,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'people have sometimes still gotten sick, even after being vaccinated against the illness'}",0.19,one_slider,Doctors,claim,people have sometimes still gotten sick
+24,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'we need to be more aware of the risks posed by vaccines'}",0.65,one_slider,Doctors,find,we need to be more aware of the risks posed by vaccines
+24,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'children should be required to get vaccinated'}",0.81,one_slider,Doctors,say,children should be required to get vaccinated
+24,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'there is no link between vaccines and autism'}",0.82,one_slider,Researchers,think,there is no link between vaccines and autism
+24,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'vaccines are effective at preventing diseases like measles'}",0.93,one_slider,Scientists,point out,vaccines are effective at preventing diseases like measles
+24,"{'subject': 'Doctors', 'verb': 'find', 'comp': 'many diseases can be contained with vaccines'}",0.08,one_slider,Doctors,find,many diseases can be contained with vaccines
+24,"{'subject': 'Doctors', 'verb': 'claim', 'comp': 'vaccines have saved countless lives'}",0.99,one_slider,Doctors,claim,vaccines have saved countless lives
+24,"{'subject': 'Researchers', 'verb': 'argue', 'comp': 'vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies'}",0.17,one_slider,Researchers,argue,vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies
+24,"{'subject': 'Researchers', 'verb': 'show', 'comp': 'vaccines are a safe and effective way to save lives'}",0.98,one_slider,Researchers,show,vaccines are a safe and effective way to save lives
+24,"{'subject': 'Scientists', 'verb': 'show', 'comp': 'the vaccine-autism link is entirely a myth'}",0.74,one_slider,Scientists,show,the vaccine-autism link is entirely a myth
+24,"{'subject': 'Doctors', 'verb': 'think', 'comp': 'the study linking vaccines to autism has been debunked'}",0.8,one_slider,Doctors,think,the study linking vaccines to autism has been debunked
+24,"{'subject': 'Scientists', 'verb': 'believe', 'comp': 'thimerosol, an active ingredient in the measles vaccine, can cause seizures'}",0.15,one_slider,Scientists,believe,thimerosol
+24,"{'subject': 'Scientists', 'verb': 'point out', 'comp': 'concerns over vaccine injuries are generally unfounded'}",0.95,one_slider,Scientists,point out,concerns over vaccine injuries are generally unfounded
+24,"{'subject': 'Scientists', 'verb': 'suspect', 'comp': 'vaccines pose non-trivial risks'}",0.18,one_slider,Scientists,suspect,vaccines pose non-trivial risks
+24,"{'subject': 'Doctors', 'verb': 'say', 'comp': 'vaccines were responsible for some cases of autism in children'}",0.17,one_slider,Doctors,say,vaccines were responsible for some cases of autism in children
+24,"{'subject': 'Scientists', 'verb': 'insist', 'comp': 'the link between vaccines and autism is unfounded'}",0.79,one_slider,Scientists,insist,the link between vaccines and autism is unfounded
+24,"{'subject': 'Researchers', 'verb': 'think', 'comp': 'vaccines do not guarantee immunity'}",0.55,one_slider,Researchers,think,vaccines do not guarantee immunity
