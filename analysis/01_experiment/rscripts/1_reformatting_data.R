@@ -137,6 +137,9 @@ dplyr::count(trialinfo,subj) # may be different since randomly chosen per stim
 # Remove workerid
 subjinfo <- select (subjinfo,-c(workerid))
 
+# Join subj info to trialinfo
+trialinfo <- inner_join(trialinfo,subjinfo,by=c("workerid" = "anon_workerid"))
+
 # Save reformatted data
 write_csv(subjinfo, "../data/reformatted_subjinfo.csv", na = "NA", append = FALSE, col_names = TRUE,
           quote_escape = "double")
