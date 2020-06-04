@@ -57,6 +57,14 @@ subjinfo$language <- tolower(subjinfo$language)
 subjinfo$enjoyment <- modify(subjinfo$enjoyment,reg_enjoy)
 subjinfo$education <- modify(subjinfo$education,reg_education)
 
+# Check that no one took the HIT twice
+duplicated(subjinfo$workerid)
+
+# Exclude from data anyone who responded "no" to assessment Q
+subjinfo <- subjinfo %>% filter(assess == 'Yes')
+yes_subjs <- subjinfo %>% filter(assess == 'Yes')
+trialinfo <- trialinfo %>% filter(workerid %in% yes_subjs$anon_workerid)
+
 # Explore subject demographics
 dplyr::count(subjinfo,language)
 dplyr::count(subjinfo,enjoyment)
@@ -65,16 +73,8 @@ dplyr::count(subjinfo,gender)
 dplyr::count(subjinfo,education)
 
 # Histogram of time taken, age
-ggplot(subjinfo, aes(x=time_taken)) + geom_histogram()
-ggplot(subjinfo, aes(x=age)) + geom_histogram()
-
-# Check that no one took the HIT twice
-duplicated(subjinfo$workerid)
-
-# Exclude from data anyone who responded "no" to assessment Q
-subjinfo <- subjinfo %>% filter(assess == 'Yes')
-yes_subjs <- subjinfo %>% filter(assess == 'Yes')
-trialinfo <- trialinfo %>% filter(workerid %in% yes_subjs$anon_workerid)
+ggplot(subjinfo, aes(x=time_taken)) + geom_histogram(binwidth=1.5) + ggtitle('Distribution of time taken to complete HIT') + xlab('Time taken (minutes)') + ylab('Number of subjects')
+ggplot(subjinfo, aes(x=age)) + geom_histogram(binwidth=5) + ylab('Number of subjects') + xlab('Age (years)') + ggtitle('Distribution of subject age')
 
 # Get a single measure of subj own stance
 get_own_stance <- function(s) {
