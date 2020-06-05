@@ -16,6 +16,9 @@ head(trialinfo)
 
 all_preds = unique(trialinfo$verb)
 
+# Check normality of response
+ggplot(trialinfo, aes(x=response)) + geom_density()
+
 # Mean on aggregate for each predicate category
 ggplot(trialinfo, aes(x=verb_cat, y=response)) + geom_boxplot() + xlab('Predicate category') + ylab('Level of agreement') + ggtitle('Agreement by predicate category')
 
@@ -32,3 +35,6 @@ ggplot(trialinfo, aes(x=verb, y=response, color=verb_cat)) + geom_point() + face
 
 # Group subjects by prior stance
 ggplot(trialinfo, aes(x=verb, y=response, color=verb_cat)) + geom_point() + facet_grid(. ~ own_stance_index > 2.5, labeller = labeller(own_stance_index = c("weak","strong"))) + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) + ylab("Subject level of agreement")
+
+# Pairwise corr
+pairscor.fnc(trialinfo[,c("response","phaseseed","own_stance_index")])

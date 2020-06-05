@@ -7,6 +7,7 @@ setwd(this.dir)
 #Load necessary packages
 library(tidyverse)
 library(lme4)
+library(hash)
 
 # Load datasets. R will automatically read the contents of these files into tibbles (which are tidyverse versions of data.frames).
 subjinfo = read_csv("../data/vaccine_preds_pilot_1_LIVE-subject-info.csv")
@@ -126,10 +127,51 @@ get_stim_verb_cat <- function(verb) {
   return(cat)
 }
 
+stims <- vector(mode="list", length=30)
+names(stims) <- c("the benefits of getting vaccinated far outweigh the risks",
+"many diseases can be contained with vaccines",
+"vaccines are a safe and effective way to save lives",
+"vaccines are effective at preventing diseases like measles",
+"there is no link between vaccines and autism",
+"the link between vaccines and autism is unfounded",
+"vaccines do not cause autism",
+"without the vaccine",
+"vaccines have saved countless lives",
+"we have basically eradicated measles",
+"children should be required to get vaccinated",
+"vaccinating children is a crucial measure for public health",
+"concerns over vaccine injuries are generally unfounded",
+"the vaccine-autism link is entirely a myth",
+"the study linking vaccines to autism has been debunked",
+"vaccines were responsible for some cases of autism in children",
+"thimerosol",
+"the mercury contained in vaccines is linked to autism risk",
+"vaccines are not as effective as people think",
+"vaccines pose non-trivial risks",
+"parents should have a choice in whether they vaccinate their children",
+"vaccine benefits are exaggerated and vaccine risks are downplayed by pharmaceutical companies",
+"many children have shown adverse reactions to vaccines",
+"getting vaccinated can pose serious risks",
+"vaccines are not as safe as many people imagine",
+"the campaign to get children vaccinated is driven in large part by drug companies",
+"people have sometimes still gotten sick",
+"vaccines do not guarantee immunity",
+"the absolute safety of vaccines is a misconception",
+"we need to be more aware of the risks posed by vaccines")
+
+for (i in 1:30) {
+  stims[[i]] <- i
+}
+
+cc_to_float <- function(c) {
+  return(stims[[c]])
+}
+
 trialinfo$subj <- modify(trialinfo$stim,get_stim_subj)
 trialinfo$verb <- modify(trialinfo$stim,get_stim_verb)
 trialinfo$verb_cat <- modify(trialinfo$verb,get_stim_verb_cat)
 trialinfo$cc <- modify(trialinfo$stim,get_stim_cc)
+trialinfo$cc_float <- modify(trialinfo$cc,cc_to_float)
 
 dplyr::count(trialinfo,verb) # should all be 72 (24 subjs*3)
 dplyr::count(trialinfo,subj) # may be different since randomly chosen per stim
