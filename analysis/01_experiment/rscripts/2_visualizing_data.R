@@ -33,8 +33,37 @@ level_order = c('claim','argue','insist','believe','think','say','show','find','
 trialinfo$verb <- factor(trialinfo$verb, levels=level_order)
 ggplot(trialinfo, aes(x=verb, y=response, color=verb_cat)) + geom_point() + facet_wrap(~ workerid) + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) + ylab("Subject level of agreement")
 
-# Group subjects by prior stance
-ggplot(trialinfo, aes(x=verb, y=response, color=verb_cat)) + geom_point() + facet_grid(. ~ own_stance_index > 2.5, labeller = labeller(own_stance_index = c("weak","strong"))) + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) + ylab("Subject level of agreement")
+# Group by subject prior stance and cc stance
+stance_names <- list(
+  as.logical(FALSE)="prior belief index < 2",
+  as.logical(TRUE)="prior belief index > 2"
+)
+belief_labeller <- function(variable,value){
+  return(stance_names[value])
+}
+ggplot(trialinfo, aes(x=verb, y=response, color=verb_cat)) + geom_point() + facet_grid((own_stance_index > 2) ~ cc_float, labeller = labeller(own_stance_index = c("weak","strong"))) + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) + ylab("Subject level of agreement")
 
-# Pairwise corr
-pairscor.fnc(trialinfo[,c("response","phaseseed","own_stance_index")])
+# Calculate mean and SD
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+  return(data_sum)
+}
+trialinfo2 <- data_summary(trialinfo, varname="response", 
+                    groupnames=c("verb_cat","verb","own_stance_index","cc_float"))
+
+# Plot with CI around mean
+ggplot(trialinfo2, aes(x=verb, y=response, group=verb_cat, color=verb_cat)) +
+  facet_grid((own_stance_index > 2) ~ cc_float)+
+  geom_point(shape=1) +
+  stat_summary(fun = mean, geom = "point", 
+               size = 3, shape = 15)+
+  stat_summary(fun.data = mean_se, geom = "errorbar")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) + ylab("Subject level of agreement")
+
