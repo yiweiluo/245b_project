@@ -7,7 +7,6 @@ setwd(this.dir)
 #Load necessary packages
 library(tidyverse)
 library(lme4)
-library(hash)
 
 # Load datasets. R will automatically read the contents of these files into tibbles (which are tidyverse versions of data.frames).
 subjinfo = read_csv("../data/vaccine_preds_pilot_1_LIVE-subject-info.csv")
@@ -92,7 +91,33 @@ get_own_stance <- function(s) {
   return(resp_1 + resp_2 - resp_3 + resp_4)
 }
 
+get_q1_stance <- function(s) {
+  s <- str_replace(str_replace(s,"\\[",""),"\\]","")
+  split_s <- strsplit(s,", ")[[1]]
+  resp_1 <- strsplit(split_s[2],"\\: ")[[1]][2]
+  resp_1 <- as.numeric(str_replace(str_replace(resp_1,"\\}","")[1],"\\]",''))
+  return(resp_1)
+}
+
+get_q2_stance <- function(s) {
+  s <- str_replace(str_replace(s,"\\[",""),"\\]","")
+  split_s <- strsplit(s,", ")[[1]]
+  resp_1 <- strsplit(split_s[4],"\\: ")[[1]][2]
+  resp_1 <- as.numeric(str_replace(str_replace(resp_1,"\\}","")[1],"\\]",''))
+  return(resp_1)
+}
+
+get_q4_stance <- function(s) {
+  s <- str_replace(str_replace(s,"\\[",""),"\\]","")
+  split_s <- strsplit(s,", ")[[1]]
+  resp_1 <- strsplit(split_s[8],"\\: ")[[1]][2]
+  resp_1 <- as.numeric(str_replace(str_replace(resp_1,"\\}","")[1],"\\]",''))
+  return(resp_1)
+}
+
 subjinfo$own_stance_index <- modify(subjinfo$own_stance,get_own_stance)
+subjinfo$own_stance_1 <- modify(subjinfo$own_stance,get_q1_stance)
+subjinfo$own_stance_index <- as.numeric(subjinfo$own_stance_index)
 ggplot(subjinfo, aes(x=own_stance_index)) + geom_histogram()
 
 # New columns in trialinfo for subject, verb, comp-clause for each stimulus
@@ -128,6 +153,7 @@ get_stim_verb_cat <- function(verb) {
 }
 
 stims <- vector(mode="list", length=30)
+stim_ids <- vector(mode="list", length=30)
 stim_stance <- vector(mode="list", length=30)
 stim_texts <- c("the benefits of getting vaccinated far outweigh the risks",
                 "many diseases can be contained with vaccines",
@@ -192,6 +218,7 @@ names(stims) <- c("the benefits of getting vaccinated far outweigh the risks",
 
 for (i in 1:30) {
   stims[[i]] <- i
+  stim_ids[[stim_texts[i]]] <- i
   if (i <= 15) {
     stim_stance[[stim_texts[i]]] <- "pro-vax comp. clause"
   }
@@ -204,11 +231,16 @@ cc_to_float <- function(c) {
   return(stim_stance[[c]])
 }
 
+cc_to_id <- function(c) {
+  return(stim_ids[[c]])
+}
+
 trialinfo$subj <- modify(trialinfo$stim,get_stim_subj)
 trialinfo$verb <- modify(trialinfo$stim,get_stim_verb)
 trialinfo$verb_cat <- modify(trialinfo$verb,get_stim_verb_cat)
 trialinfo$cc <- modify(trialinfo$stim,get_stim_cc)
 trialinfo$cc_float <- modify(trialinfo$cc,cc_to_float)
+trialinfo$cc_id <- modify(trialinfo$cc,cc_to_id)
 
 dplyr::count(trialinfo,verb) # should all be 72 (24 subjs*3)
 dplyr::count(trialinfo,subj) # may be different since randomly chosen per stim
