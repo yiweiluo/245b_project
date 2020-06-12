@@ -205,8 +205,7 @@ function make_slides(f) {
     name : "multi_slider",
     present : [
       {"item":"Vaccines have high preventive health benefits and low risks of side effects"},
-      {"item":"Healthy children should be required to be vaccinated to attend school because of potential health risk to others"}, // 0 to 1
-      {"item":"Parents should be able to decide not to vaccinate their children, even if that may create health risks for others"},
+      {"item":"Healthy children should be required to be vaccinated to attend school because of potential health risk to others"}, 
       {"item":"Medical scientists understand the health risks and benefits of vaccines"}, // 1 to 0
     ],
     present_handle : function(stim) {
